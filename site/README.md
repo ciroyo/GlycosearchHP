@@ -15,7 +15,9 @@ node scripts/serve.mjs      # http://127.0.0.1:4173/
 
 ## Repository state
 
-Since 25 Nov 2026 the redesign is on GitHub in repository `ciroyo/GlycosearchHP`: developed on branch `redesign-2026` and merged into `master` with pull request #1 (merge commit `8fe5c26`). Nothing has been uploaded to the web server by this.
+Since 25 Nov 2026 the redesign is on GitHub in repository `ciroyo/GlycosearchHP`: developed on branch `redesign-2026` and merged into `master` (pull requests #1 and #2). `.github/workflows/build.yml` builds and checks every push on a macOS runner; it does not publish.
+
+**Live since 26 Nov 2026:** https://glycosearch.com/ serves the build of commit `8334471` (same site output as `master` at `3a39451`). It was uploaded by hand over SFTP from a clean clone into the web root `/sam/glycosearch` on `ssh.strato.de`; all 862 files of `dist/` were then downloaded from the live domain and are byte-identical. The upload only added and overwrote files (26 overwritten, nothing deleted); a full copy of the previous web root is kept outside the repository. The host allows SFTP only (no shell, no rsync). Not set up: automatic deployment from GitHub, `.htaccess` (so unknown addresses show the host's default 404 page, not `404.html`), and the `/api/ask` endpoint (static hosting; Ask Glycosearch uses the built-in website search).
 
 ## Checks
 
