@@ -15,7 +15,7 @@ node scripts/serve.mjs      # http://127.0.0.1:4173/
 
 ## Repository state
 
-Since 25 Nov 2026 the redesign is on GitHub: repository `ciroyo/GlycosearchHP`, branch `redesign-2026`, first commit `d244673`, pull request #1 into `master` (open, not merged). `master` still holds the previous website only. Nothing has been uploaded to the web server.
+Since 25 Nov 2026 the redesign is on GitHub in repository `ciroyo/GlycosearchHP`: developed on branch `redesign-2026` and merged into `master` with pull request #1 (merge commit `8fe5c26`). Nothing has been uploaded to the web server by this.
 
 ## Checks
 
