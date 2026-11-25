@@ -1,0 +1,38 @@
+{
+ "Glycome": {
+  "size": [
+   1280,
+   785
+  ],
+  "background_removed_share": 0.8922,
+  "paper_white_pockets_px": 33415,
+  "white_highlights_kept": 9,
+  "light_pixels_kept_in_drawing_px": 1880,
+  "edge_band_px": 84020,
+  "neutral_dark_relit_px": 56072
+ },
+ "Glycomics": {
+  "size": [
+   946,
+   609
+  ],
+  "background_removed_share": 0.6006,
+  "paper_white_pockets_px": 2453,
+  "white_highlights_kept": 618,
+  "light_pixels_kept_in_drawing_px": 8987,
+  "edge_band_px": 37926,
+  "neutral_dark_relit_px": 9219
+ },
+ "spaac-frame": {
+  "size": [
+   1100,
+   618
+  ],
+  "background_removed_share": 0.9318,
+  "paper_white_pockets_px": 37289,
+  "white_highlights_kept": 25,
+  "light_pixels_kept_in_drawing_px": 982,
+  "edge_band_px": 13366,
+  "neutral_dark_relit_px": 0
+ }
+}

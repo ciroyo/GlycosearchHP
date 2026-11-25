@@ -1,0 +1,574 @@
+{
+ "generated": "2026-11-25T22:08:16.643Z",
+ "source": "http://glycosearch.com/ (mirror 2026-11-24) + additions of 2026-11-25",
+ "entries": [
+  {
+   "id": "paper-01",
+   "title": "Readily Accessible Bicyclononynes for Bioorthogonal Labeling and Three-Dimensional Imaging of Living Cells",
+   "oldUrl": "/ajax-lightbox-gallery/project1.html",
+   "newUrl": "/publications/bicyclononynes-bioorthogonal-labeling-3d-imaging/",
+   "pdf": "/papers_pdfs/1/Readily Accessible Bicyclononynes for Bioorthogonal Labeling and Three-Dimensional Imaging of Living Cells.pdf",
+   "pdfBytes": 2473415,
+   "pdfSha256": "8e2eaab03ba9e4f98277579a809d7bf69c8e458d7c02b0da947a27442d6411a7",
+   "images": 5,
+   "actions": []
+  },
+  {
+   "id": "paper-02",
+   "title": "Interstitial cell migration: integrin-dependent and alternative adhesion mechanisms",
+   "oldUrl": "/ajax-lightbox-gallery/project2.html",
+   "newUrl": "/publications/interstitial-cell-migration-adhesion-mechanisms/",
+   "pdf": "/papers_pdfs/2/Interstitial cell migration integrin-dependent and alternative adhesion mechanisms.pdf",
+   "pdfBytes": 346453,
+   "pdfSha256": "d6ac9d5ec30f01be74040173e13fa0df689274b6d04dad7a9eb7fdcc8a315f2a",
+   "images": 10,
+   "actions": []
+  },
+  {
+   "id": "paper-03",
+   "title": "Intellectual disability and bleeding diathesis due to deficient CMP-sialic acid transport",
+   "oldUrl": "/ajax-lightbox-gallery/project3.html",
+   "newUrl": "/publications/cmp-sialic-acid-transport-deficiency/",
+   "pdf": "/papers_pdfs/3/Intellectual disability and bleeding diathesis due to deficient CMP-sialic acid transport.pdf",
+   "pdfBytes": 2302041,
+   "pdfSha256": "c61fd3069e69ac118d6e822d2ccfabd250272f0cf6e2761a22a81e0cb291e046",
+   "images": 8,
+   "actions": []
+  },
+  {
+   "id": "paper-04",
+   "title": "Identification of Short Hydrophobic Cell-Penetrating Peptides for Cytosolic Peptide Delivery by Rational Design",
+   "oldUrl": "/ajax-lightbox-gallery/project4.html",
+   "newUrl": "/publications/short-hydrophobic-cell-penetrating-peptides/",
+   "pdf": "/papers_pdfs/4/Identification of Short Hydrophobic Cell-Penetrating Peptides for Cytosolic Peptide Delivery by Rational Design.pdf",
+   "pdfBytes": 8804792,
+   "pdfSha256": "a3a40ee3117d0a8e7a1c1eb538e8d30543b6c01fa0ba1deefbdf7075116f1956",
+   "images": 8,
+   "actions": [
+    {
+     "legacyLabel": "App",
+     "newLabel": "Peptify web app",
+     "url": "https://frapbotbeta.shinyapps.io/peptify/",
+     "check": {
+      "status": 202,
+      "usedBy": [
+       "paper-04:Open app"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Github",
+     "newLabel": "Source code (GitHub)",
+     "url": "https://github.com/Kohze/Peptify.git",
+     "check": {
+      "status": 200,
+      "final": "https://github.com/Kohze/Peptify",
+      "usedBy": [
+       "paper-04:GitHub"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "paper-05",
+   "title": "Detecting Cytosolic Peptide Delivery with the GFP Complementation Assay in the Low Micromolar Range",
+   "oldUrl": "/ajax-lightbox-gallery/project5.html",
+   "newUrl": "/publications/gfp-complementation-assay-cytosolic-delivery/",
+   "pdf": "/papers_pdfs/5/Detecting Cytosolic Peptide Delivery with the GFP Complementation Assay in the Low Micromolar Range.pdf",
+   "pdfBytes": 3344068,
+   "pdfSha256": "f49ab03f511a2698cb7d77774606627d5b0cac3ff8b4d702a1611c5ba2aaead5",
+   "images": 5,
+   "actions": []
+  },
+  {
+   "id": "paper-06",
+   "title": "Methods to Study the Role of the Glycocalyx in the Uptake of Cell-Penetrating Peptides",
+   "oldUrl": "/ajax-lightbox-gallery/project6.html",
+   "newUrl": "/publications/glycocalyx-cpp-uptake-methods/",
+   "pdf": "/papers_pdfs/6/Methods to Study the Role of the Glycocalyx in the Uptake of Cell-Penetrating Peptides.pdf",
+   "pdfBytes": 431658,
+   "pdfSha256": "e7b0bb26d81dddf20de66f0b034f3b055be7a0aa1f04a7a01665f8ecdc9f95a0",
+   "images": 9,
+   "actions": []
+  },
+  {
+   "id": "paper-07",
+   "title": "The stoichiometry of peptide‐heparan sulfate binding as a determinant of uptake effiency of cell‐penetrating peptides",
+   "oldUrl": "/ajax-lightbox-gallery/project7.html",
+   "newUrl": "/publications/peptide-heparan-sulfate-stoichiometry/",
+   "pdf": "/papers_pdfs/7/The stoichiometry of peptide.pdf",
+   "pdfBytes": 2595121,
+   "pdfSha256": "e0046325f57973ee6b74dba4a5b378e1dab28f2ea821a540e7e1b9c77d5db78f",
+   "images": 13,
+   "actions": []
+  },
+  {
+   "id": "paper-08",
+   "title": "The Multifaceted Role of Glycosaminoglycans in the Cellular Uptake of Cell-Penetrating Peptides",
+   "oldUrl": "/ajax-lightbox-gallery/project8.html",
+   "newUrl": "/publications/glycosaminoglycans-cpp-uptake/",
+   "pdf": "/papers_pdfs/8/The Multifaceted Role of Glycosaminoglycans in the Cellular Uptake of Cell-Penetrating Peptides.pdf",
+   "pdfBytes": 526056,
+   "pdfSha256": "4f214fe5c466493d30dddf6e85fef60fdba7a0bb19c0ffffbad7c3f6d3b64c7a",
+   "images": 2,
+   "actions": []
+  },
+  {
+   "id": "paper-09",
+   "title": "Cell surface clustering of heparan sulfate proteoglycans by amphipathic cell-penetrating peptides does not contribute to uptake",
+   "oldUrl": "/ajax-lightbox-gallery/project9.html",
+   "newUrl": "/publications/heparan-sulfate-proteoglycan-clustering/",
+   "pdf": "/papers_pdfs/9/Cell surface clustering of heparan sulfate proteoglycans by amphipathic cell-penetrating peptides does not contribute to uptake.pdf",
+   "pdfBytes": 9141705,
+   "pdfSha256": "5534bdfdd11e156ce4cfc8c8d2b5450de1fc76d0977ce06bc192ee5380c47506",
+   "images": 9,
+   "actions": []
+  },
+  {
+   "id": "paper-10",
+   "title": "Glycosaminoglycans in the cellular uptake of drug delivery vectors-Bystanders or active players?",
+   "oldUrl": "/ajax-lightbox-gallery/project10.html",
+   "newUrl": "/publications/glycosaminoglycans-drug-delivery-vectors/",
+   "pdf": "/papers_pdfs/10/Glycosaminoglycans in the cellular uptake of drug delivery vectors-Bystanders or active players.pdf",
+   "pdfBytes": 1918715,
+   "pdfSha256": "bd89ad2a9a8bd6425068f9e223def4dd880c51ca9e5379d0810d5374f2676368",
+   "images": 10,
+   "actions": []
+  },
+  {
+   "id": "paper-11",
+   "title": "Primary Ovarian Carcinomas and Abdominal Metastasis Contain 4,6-Disulfated Chondroitin Sulfate Rich Regions, Which Provide Adhesive Properties to Tumour Cells",
+   "oldUrl": "/ajax-lightbox-gallery/project11.html",
+   "newUrl": "/publications/ovarian-carcinoma-chondroitin-sulfate/",
+   "pdf": "/papers_pdfs/11/Primary Ovarian Carcinomas and Abdominal Metastasis Contain 4,6-Disulfated Chondroitin Sulfate Rich Regions, Which Provide Adhesive Properties to Tumour Cells.pdf",
+   "pdfBytes": 16582794,
+   "pdfSha256": "d62ddfe59d55c698d25befec26bd5e40256d7c2f0e44f05604a71c7f9df6155d",
+   "images": 10,
+   "actions": []
+  },
+  {
+   "id": "paper-12",
+   "title": "Frapbot: An Open-Source Application for FRAP Data",
+   "oldUrl": "/ajax-lightbox-gallery/project12.html",
+   "newUrl": "/publications/frapbot/",
+   "pdf": "/papers_pdfs/12/Frapbot An Open-Source Application for FRAP Data.pdf",
+   "pdfBytes": 1185392,
+   "pdfSha256": "703d9af93c9c0cf90ea493d3c5a5ded2e4ff21adf16dd0d0b75badf4e1520a56",
+   "images": 15,
+   "actions": [
+    {
+     "legacyLabel": "App",
+     "newLabel": "Frapbot web app",
+     "url": "http://frapbot.kohze.com",
+     "check": {
+      "status": 200,
+      "final": "http://frapbot.kohze.com/",
+      "usedBy": [
+       "paper-12:Open app"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Github",
+     "newLabel": "Source code (GitHub)",
+     "url": "https://github.com/Kohze/Frapbot",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "paper-12:GitHub"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "ETH Zurich",
+     "newLabel": "FRAP and FLIP resource, ETH Zurich",
+     "url": "https://scopem.ethz.ch/education/knowledge-resources/FRAPandFLIP.html?fbclid=IwAR2KoUDXdmYyRwZrXWjYo9T444FMmnRYf5-ecpolg94fy49-9UXwxfyBfpc",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "paper-12:ETH Zurich",
+       "resource-eth-frap:Open resource"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Press",
+     "newLabel": "Press article, Radboudumc",
+     "url": "https://www.radboudumc.nl/en/news/2017/frapbot-a-web-application-for-frap-data-analysis",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "paper-12:Press"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "paper-13",
+   "title": "Lactam-Stapled Cell-Penetrating Peptides Cell Uptake and Membrane Binding Properties",
+   "oldUrl": "/ajax-lightbox-gallery/project13.html",
+   "newUrl": "/publications/lactam-stapled-cell-penetrating-peptides/",
+   "pdf": "/papers_pdfs/13/Lactam-Stapled Cell-Penetrating Peptides Cell Uptake and Membrane Binding Properties.pdf",
+   "pdfBytes": 1054895,
+   "pdfSha256": "008c959df069d551fbaf9d3abf6b3aaf8fb80cdc4f554b25d2a966aa2016b847",
+   "images": 14,
+   "actions": [
+    {
+     "legacyLabel": "Get Manual",
+     "newLabel": "Protein ORIGAMI manual (PDF) [Applied applications]",
+     "url": "/manuals/13/PROTEIN%20ORIGAMI.pdf",
+     "check": null
+    },
+    {
+     "legacyLabel": "App",
+     "newLabel": "Protein ORIGAMI web app [Applied applications]",
+     "url": "http://www.ibg.kit.edu/protein_origami/?page=index",
+     "check": {
+      "status": 200,
+      "final": "https://www.ibg.kit.edu/protein_origami/?page=index",
+      "usedBy": [
+       "paper-13:Open app"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Github",
+     "newLabel": "Source code (GitHub) [Applied applications]",
+     "url": "https://github.com/sabinereisser/protein_origami",
+     "check": {
+      "status": 200,
+      "final": "https://github.com/sreisser/protein_origami",
+      "usedBy": [
+       "paper-13:GitHub"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "paper-14",
+   "title": "Bicyclononynes: New Ring-Strained Alkynes for Bioorthogonal Labeling",
+   "oldUrl": "/ajax-lightbox-gallery/project14.html",
+   "newUrl": "/publications/bicyclononynes-ring-strained-alkynes/",
+   "pdf": "/papers_pdfs/14/Bicyclononynes.pdf",
+   "pdfBytes": 78481,
+   "pdfSha256": "1eaf7ffedbff4636046d47c5ceced1329f4b04f99e9b867bca2d809c36cd14b6",
+   "images": 1,
+   "actions": []
+  },
+  {
+   "id": "paper-15",
+   "title": "Glycocalyx-mediated Cell Adhesion and Migration",
+   "oldUrl": "(new entry, 2026-11-25)",
+   "newUrl": "/publications/glycocalyx-mediated-cell-adhesion-and-migration/",
+   "pdf": "/papers_pdfs/15/Glycocalyx-mediated Cell Adhesion and Migration.pdf",
+   "pdfBytes": 16683057,
+   "pdfSha256": "c97b1a0c67937df3ede6130d13ed3850996a90817bdac57efcc451de83da51d7",
+   "images": 37,
+   "actions": [
+    {
+     "legacyLabel": "(new)",
+     "newLabel": "Preprint on bioRxiv",
+     "url": "https://www.biorxiv.org/content/10.1101/2020.06.12.149096v1",
+     "check": null
+    }
+   ]
+  },
+  {
+   "id": "paper-16",
+   "title": "The surface stress of biomedical silicones is a stimulant of cellular response",
+   "oldUrl": "(new entry, 2026-11-25)",
+   "newUrl": "/publications/surface-stress-of-biomedical-silicones/",
+   "pdf": "/papers_pdfs/16/The surface stress of biomedical silicones is a stimulant of cellular response.pdf",
+   "pdfBytes": 1308931,
+   "pdfSha256": "04f715aa7f794c00936bcb7ed1f98c35ebefcb6211ff30320991efbdf5ea076a",
+   "images": 13,
+   "actions": [
+    {
+     "legacyLabel": "(new)",
+     "newLabel": "Article at Science Advances",
+     "url": "https://www.science.org/doi/10.1126/sciadv.aay0076",
+     "check": null
+    }
+   ]
+  },
+  {
+   "id": "paper-17",
+   "title": "Recombinant manufacturing of multispecies biolubricants",
+   "oldUrl": "(new entry, 2026-11-25)",
+   "newUrl": "/publications/recombinant-manufacturing-of-multispecies-biolubricants/",
+   "pdf": "/papers_pdfs/17/Recombinant manufacturing of multispecies biolubricants.pdf",
+   "pdfBytes": 1554266,
+   "pdfSha256": "6721ee856e9c3f331544e04f667cf07bdb85327c18529fd6eaf723199e32f930",
+   "images": 18,
+   "actions": [
+    {
+     "legacyLabel": "(new)",
+     "newLabel": "Preprint on bioRxiv",
+     "url": "https://www.biorxiv.org/content/10.1101/2024.05.05.592580v1",
+     "check": null
+    }
+   ]
+  },
+  {
+   "id": "paper-18",
+   "title": "Guide selection transfers depletion effects across noncanonical ORF screens",
+   "oldUrl": "(new entry, 2026-11-25)",
+   "newUrl": "/publications/guide-selection-noncanonical-orf-screens/",
+   "pdf": "/papers_pdfs/18/Guide Selection Transfers Depletion Effects across Noncanonical ORF Screens.pdf",
+   "pdfBytes": 698199,
+   "pdfSha256": "02503157a9c1640dc35272c1baf2f69cad52c7b76adb1eea52c43085746706b9",
+   "images": 28,
+   "actions": [
+    {
+     "legacyLabel": "(new)",
+     "newLabel": "Data and analysis code (GitHub)",
+     "url": "https://github.com/Kohze/norf-guide-selection",
+     "check": null
+    },
+    {
+     "legacyLabel": "(new)",
+     "newLabel": "Preprint on SSRN",
+     "url": "https://www.ssrn.com/abstract=7686519",
+     "check": null
+    }
+   ]
+  },
+  {
+   "id": "paper-19",
+   "title": "Experimental context limits transfer of microprotein sequence scores",
+   "oldUrl": "(new entry, 2026-11-25)",
+   "newUrl": "/publications/microprotein-sequence-score-transfer/",
+   "pdf": "/papers_pdfs/19/Experimental Context Limits Transfer of Microprotein Sequence Scores.pdf",
+   "pdfBytes": 406690,
+   "pdfSha256": "5c2afe330c79198bb090c47ac0f4b9ef51ed8f388bdb0eabeca16c9e87da6fc8",
+   "images": 26,
+   "actions": [
+    {
+     "legacyLabel": "(new)",
+     "newLabel": "Data and analysis code (GitHub)",
+     "url": "https://github.com/Kohze/microprotein-score-transfer",
+     "check": null
+    },
+    {
+     "legacyLabel": "(new)",
+     "newLabel": "Preprint on SSRN",
+     "url": "https://www.ssrn.com/abstract=7688762",
+     "check": null
+    }
+   ]
+  },
+  {
+   "id": "project-01",
+   "title": "Firedata - Connecting R to Google Firebase",
+   "oldUrl": "/ajax-lightbox-gallery-projects/project1.html",
+   "newUrl": "/projects/firedata-firebase/",
+   "pdf": "/projects_pdfs/1/Connecting R to Google Firebase FireData.pdf",
+   "pdfBytes": 145589,
+   "pdfSha256": "5c63a9d6a468ad4c67048a1de4fdb60c4851e30401d251d005062560438b34ef",
+   "images": 5,
+   "actions": [
+    {
+     "legacyLabel": "Wiki",
+     "newLabel": "Project wiki",
+     "url": "https://github.com/rstats-gsoc/gsoc2017/wiki/FireData---Connecting-R-to-Google-Firebase",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-01:Wiki"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Github",
+     "newLabel": "Source code (GitHub)",
+     "url": "https://github.com/Kohze/fireData",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-01:GitHub",
+       "about:Google Summer of Code"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "R",
+     "newLabel": "R project, GSoC organization page",
+     "url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5555424770129920/",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-01:R / GSoC organization"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Press",
+     "newLabel": "Press article, Radboudumc",
+     "url": "https://www.radboudumc.nl/en/news/2017/prestigious-google-soc-grant",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-01:Press"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "project-02",
+   "title": "Discovr - Streamlining Statistical Data Analysis",
+   "oldUrl": "/ajax-lightbox-gallery-projects/project2.html",
+   "newUrl": "/projects/discovr/",
+   "pdf": "/projects_pdfs/2/Discovr-Streamlining statistical data analysis.pdf",
+   "pdfBytes": 217103,
+   "pdfSha256": "e6cf65ba4e40da6247566ad08cf933e674c90ad31cff9c6d44b2ffd8a33ddb24",
+   "images": 2,
+   "actions": [
+    {
+     "legacyLabel": "Github",
+     "newLabel": "Source code (GitHub)",
+     "url": "https://github.com/Kohze/Discovr",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-02:GitHub",
+       "about:Google Summer of Code – Discovr"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "R",
+     "newLabel": "R project, GSoC organization page",
+     "url": "https://summerofcode.withgoogle.com/archive/2016/organizations/6032418200879104/",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-02:R / GSoC organization"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "project-03",
+   "title": "Firedata-Enabling easy cloud stats through Cloud Firestore",
+   "oldUrl": "/ajax-lightbox-gallery-projects/project3.html",
+   "newUrl": "/projects/firedata-cloud-firestore/",
+   "pdf": "/projects_pdfs/3/Firedata-Enabling easy cloud stats through Cloud Firestore.pdf",
+   "pdfBytes": 448691,
+   "pdfSha256": "e3f85a20a6adc709fb986924fd0c09cd31aa872a3684cbb1c924deaad95f4878",
+   "images": 6,
+   "actions": [
+    {
+     "legacyLabel": "GSOC",
+     "newLabel": "Google Summer of Code project page",
+     "url": "https://summerofcode.withgoogle.com/archive/2018/projects/6088046147534848/",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-03:GSoC project",
+       "about:Google Summer of Code – Firedata and Cloud Firestore"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "R",
+     "newLabel": "R project, GSoC organization page",
+     "url": "https://summerofcode.withgoogle.com/archive/2018/organizations/6343413561556992/",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-03:R / GSoC organization",
+       "project-04:R / GSoC organization"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Press",
+     "newLabel": "Press article, Radboudumc",
+     "url": "https://www.radboudumc.nl/en/news/2018/prestigious-google-soc-grants-for-robin-kohze-and-samuel-schmidt",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-03:Press",
+       "project-04:Press"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "project-04",
+   "title": "Firedata - Adding Web Functionalities for Shiny and OpenCPU",
+   "oldUrl": "/ajax-lightbox-gallery-projects/project4.html",
+   "newUrl": "/projects/firedata-shiny-opencpu/",
+   "pdf": "/projects_pdfs/4/Firedata-Adding Web Functionalities for Shiny and OpenCPU.pdf",
+   "pdfBytes": 237696,
+   "pdfSha256": "29a8dcc7dd0fce5c114ee217a768180a6f6e43fbca877d95798ea2b8a0e2c444",
+   "images": 6,
+   "actions": [
+    {
+     "legacyLabel": "Github",
+     "newLabel": "Source code (GitHub)",
+     "url": "https://github.com/paulsp94/fireData",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-04:GitHub"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Wiki",
+     "newLabel": "Project wiki",
+     "url": "https://paulspen.de/fireData/",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-04:Wiki"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "GSOC",
+     "newLabel": "Google Summer of Code project page",
+     "url": "https://summerofcode.withgoogle.com/archive/2018/projects/5750197846016000/",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-04:GSoC project",
+       "about:Google Summer of Code – Firedata for Shiny and OpenCPU"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "R",
+     "newLabel": "R project, GSoC organization page",
+     "url": "https://summerofcode.withgoogle.com/archive/2018/organizations/6343413561556992/",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-03:R / GSoC organization",
+       "project-04:R / GSoC organization"
+      ]
+     }
+    },
+    {
+     "legacyLabel": "Press",
+     "newLabel": "Press article, Radboudumc",
+     "url": "https://www.radboudumc.nl/en/news/2018/prestigious-google-soc-grants-for-robin-kohze-and-samuel-schmidt",
+     "check": {
+      "status": 200,
+      "usedBy": [
+       "project-03:Press",
+       "project-04:Press"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

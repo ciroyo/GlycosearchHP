@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-25",
+  "source": "Vom Nutzer in dieser Sitzung bereitgestellte Dateien",
+  "status": "bereitgestellt; PDF-Titelseiten und teilweise Abstracts geprüft; vollständige Verarbeitung und Website-Integration offen",
+  "file_count": 11,
+  "files": [
+    {
+      "name": "1F80E890-FEED-4F21-B0BA-4A3E0D38755C.png",
+      "path": "../../inbox/website-feedback-2026-11-25/1F80E890-FEED-4F21-B0BA-4A3E0D38755C.png",
+      "bytes": 672350,
+      "sha256": "430554dd37cb7dc19150f29b5326422c5c836c54ab85dc397917d9fb5a2730e2",
+      "library_file_id": "libfile_533a9b690d608191a6fbe9e190a8a187",
+      "file_id": "file_00000000cda881f99c653b0388a93780"
+    },
+    {
+      "name": "92B187E4-01B8-4783-9A24-8CD150BA11F8.png",
+      "path": "../../inbox/website-feedback-2026-11-25/92B187E4-01B8-4783-9A24-8CD150BA11F8.png",
+      "bytes": 1080060,
+      "sha256": "e217b67cc441a310fab403f9a8cd63cf985eac2cdfb12de390d0591ec919f25d",
+      "library_file_id": "libfile_d8d7900924ac81919464be83e8668e68",
+      "file_id": "file_00000000b9ac81f9a2eb5f8006a3f65c"
+    },
+    {
+      "name": "Experimental Context Limits Transfer of Microprotein Sequence Scores.pdf",
+      "path": "../../inbox/website-feedback-2026-11-25/Experimental Context Limits Transfer of Microprotein Sequence Scores.pdf",
+      "bytes": 406690,
+      "sha256": "5c2afe330c79198bb090c47ac0f4b9ef51ed8f388bdb0eabeca16c9e87da6fc8",
+      "library_file_id": "libfile_16730db224d081918cac430be79b6269",
+      "file_id": "file_00000000054081f980bce880037e5173"
+    },
+    {
+      "name": "Glycocalyx-mediated Cell Adhesion and Migration.pdf",
+      "path": "../../inbox/website-feedback-2026-11-25/Glycocalyx-mediated Cell Adhesion and Migration.pdf",
+      "bytes": 16683057,
+      "sha256": "c97b1a0c67937df3ede6130d13ed3850996a90817bdac57efcc451de83da51d7",
+      "library_file_id": "libfile_558478233c1881919fc4aa67166862c1",
+      "file_id": "file_000000003ea081f9aa9a09d53d8da54b"
+    },
+    {
+      "name": "Glycome.jpg",
+      "path": "../../inbox/website-feedback-2026-11-25/Glycome.jpg",
+      "bytes": 114871,
+      "sha256": "b068dc946a34efd3307a1752e949984a463b96625e2a256dd0675cb5b88d76e3",
+      "library_file_id": "libfile_36f94e5a31a481919df6251ae928f8a4",
+      "file_id": "file_00000000fb0481f993aa8bf80a7ed5dd"
+    },
+    {
+      "name": "Glycomics.jpg",
+      "path": "../../inbox/website-feedback-2026-11-25/Glycomics.jpg",
+      "bytes": 102620,
+      "sha256": "9802287af17fa01de0e0205b337b221db94ad9c5c7ab6a946df4631a2a72dfa3",
+      "library_file_id": "libfile_338752db8ec08191bfb59fb5be7a0efb",
+      "file_id": "file_00000000002081f9bb289b5e58c9aca4"
+    },
+    {
+      "name": "Guide Selection Transfers Depletion Effects across Noncanonical ORF Screens.pdf",
+      "path": "../../inbox/website-feedback-2026-11-25/Guide Selection Transfers Depletion Effects across Noncanonical ORF Screens.pdf",
+      "bytes": 698199,
+      "sha256": "02503157a9c1640dc35272c1baf2f69cad52c7b76adb1eea52c43085746706b9",
+      "library_file_id": "libfile_53c96d6588f88191a73473416443abec",
+      "file_id": "file_00000000e0c481f9b61e18cbcfd55ee5"
+    },
+    {
+      "name": "Recombinant manufacturing of multispecies biolubricants.pdf",
+      "path": "../../inbox/website-feedback-2026-11-25/Recombinant manufacturing of multispecies biolubricants.pdf",
+      "bytes": 1554266,
+      "sha256": "6721ee856e9c3f331544e04f667cf07bdb85327c18529fd6eaf723199e32f930",
+      "library_file_id": "libfile_d6065bec66188191967928a056fd8023",
+      "file_id": "file_00000000475881f9a43d9639ec0bdf46"
+    },
+    {
+      "name": "Symbol nomenclature written in 2D version of text nomenclature.png",
+      "path": "../../inbox/website-feedback-2026-11-25/Symbol nomenclature written in 2D version of text nomenclature.png",
+      "bytes": 232427,
+      "sha256": "618a02bea8de462f74cebbd018e2499d99bb177743ed253edb5742e39d69a345",
+      "library_file_id": "libfile_a3386a43b4508191aa0c77a2d28b97e4",
+      "file_id": "file_00000000037c81f9b6ec2220b60c6948"
+    },
+    {
+      "name": "Text nomenclature.png",
+      "path": "../../inbox/website-feedback-2026-11-25/Text nomenclature.png",
+      "bytes": 140377,
+      "sha256": "d53f45827de4aecaa97283f0b9aef5d8094a3de62ea88e75d7df2d472528e24d",
+      "library_file_id": "libfile_f2af8be66ca48191b77a441934073f98",
+      "file_id": "file_000000001efc81f981d5081bd6ec203c"
+    },
+    {
+      "name": "The surface stress of biomedical silicones is a stimulant of cellular response.pdf",
+      "path": "../../inbox/website-feedback-2026-11-25/The surface stress of biomedical silicones is a stimulant of cellular response.pdf",
+      "bytes": 1308931,
+      "sha256": "04f715aa7f794c00936bcb7ed1f98c35ebefcb6211ff30320991efbdf5ea076a",
+      "library_file_id": "libfile_4a563c78721c81919340298d90a96ed4",
+      "file_id": "file_00000000aefc81f99b639fb93186a6b6"
+    }
+  ]
+}

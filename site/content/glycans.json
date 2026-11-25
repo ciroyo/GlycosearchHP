@@ -1,0 +1,522 @@
+{
+ "_about": "Explicit data model for the interactive 'Symbol and text nomenclature' figure. One record per monosaccharide residue: sugar, parent residue, anomer and linkage positions, antenna, and its grid position in the horizontal symbol drawing. Text notation, both symbol drawings (horizontal and upright) and the residue list are all generated from these records, so a residue is the same object in every view. Source of the structures: the figure 'Symbol nomenclature written in 2D version of text nomenclature.png' supplied by the site owner (2026-11-25). The upright drawing is the horizontal one turned clockwise by 90 degrees, as in the supplied figure (the O-glycan arms, which differ in composition, confirm the direction).",
+ "sugars": {
+  "NeuAc": {
+   "name": "N-acetylneuraminic acid",
+   "note": "a sialic acid",
+   "shape": "diamond",
+   "rgb": [
+    200,
+    0,
+    200
+   ]
+  },
+  "Gal": {
+   "name": "Galactose",
+   "shape": "circle",
+   "rgb": [
+    255,
+    255,
+    0
+   ]
+  },
+  "GlcNAc": {
+   "name": "N-acetylglucosamine",
+   "shape": "square",
+   "rgb": [
+    0,
+    0,
+    250
+   ]
+  },
+  "Man": {
+   "name": "Mannose",
+   "shape": "circle",
+   "rgb": [
+    0,
+    200,
+    50
+   ]
+  },
+  "Fuc": {
+   "name": "Fucose",
+   "shape": "triangle",
+   "rgb": [
+    250,
+    0,
+    0
+   ]
+  },
+  "GalNAc": {
+   "name": "N-acetylgalactosamine",
+   "shape": "square",
+   "rgb": [
+    255,
+    255,
+    0
+   ]
+  }
+ },
+ "glycans": [
+  {
+   "id": "n",
+   "title": "N-linked glycan",
+   "aglycon": "Asn",
+   "aglyconName": "asparagine",
+   "residues": [
+    {
+     "id": "n-neuac-6",
+     "sugar": "NeuAc",
+     "parent": "n-gal-6",
+     "anomer": "α",
+     "from": 2,
+     "to": 6,
+     "where": "α1-6 antenna",
+     "pos": [
+      0,
+      0
+     ]
+    },
+    {
+     "id": "n-gal-6",
+     "sugar": "Gal",
+     "parent": "n-glcnac-6",
+     "anomer": "β",
+     "from": 1,
+     "to": 4,
+     "where": "α1-6 antenna",
+     "pos": [
+      1,
+      0
+     ]
+    },
+    {
+     "id": "n-glcnac-6",
+     "sugar": "GlcNAc",
+     "parent": "n-man-6",
+     "anomer": "β",
+     "from": 1,
+     "to": 2,
+     "where": "α1-6 antenna",
+     "pos": [
+      2,
+      0
+     ]
+    },
+    {
+     "id": "n-man-6",
+     "sugar": "Man",
+     "parent": "n-man-core",
+     "anomer": "α",
+     "from": 1,
+     "to": 6,
+     "where": "α1-6 antenna, branch point",
+     "pos": [
+      3,
+      0
+     ]
+    },
+    {
+     "id": "n-neuac-3",
+     "sugar": "NeuAc",
+     "parent": "n-gal-3",
+     "anomer": "α",
+     "from": 2,
+     "to": 6,
+     "where": "α1-3 antenna",
+     "pos": [
+      0,
+      2
+     ]
+    },
+    {
+     "id": "n-gal-3",
+     "sugar": "Gal",
+     "parent": "n-glcnac-3",
+     "anomer": "β",
+     "from": 1,
+     "to": 4,
+     "where": "α1-3 antenna",
+     "pos": [
+      1,
+      2
+     ]
+    },
+    {
+     "id": "n-glcnac-3",
+     "sugar": "GlcNAc",
+     "parent": "n-man-3",
+     "anomer": "β",
+     "from": 1,
+     "to": 2,
+     "where": "α1-3 antenna",
+     "pos": [
+      2,
+      2
+     ]
+    },
+    {
+     "id": "n-man-3",
+     "sugar": "Man",
+     "parent": "n-man-core",
+     "anomer": "α",
+     "from": 1,
+     "to": 3,
+     "where": "α1-3 antenna, branch point",
+     "pos": [
+      3,
+      2
+     ]
+    },
+    {
+     "id": "n-man-core",
+     "sugar": "Man",
+     "parent": "n-glcnac-2",
+     "anomer": "β",
+     "from": 1,
+     "to": 4,
+     "where": "core, carries both antennae",
+     "pos": [
+      4,
+      1
+     ]
+    },
+    {
+     "id": "n-glcnac-2",
+     "sugar": "GlcNAc",
+     "parent": "n-glcnac-1",
+     "anomer": "β",
+     "from": 1,
+     "to": 4,
+     "where": "core",
+     "pos": [
+      5,
+      1
+     ]
+    },
+    {
+     "id": "n-fuc",
+     "sugar": "Fuc",
+     "parent": "n-glcnac-1",
+     "anomer": "α",
+     "from": 1,
+     "to": 6,
+     "where": "core fucose",
+     "pos": [
+      6,
+      0
+     ]
+    },
+    {
+     "id": "n-glcnac-1",
+     "sugar": "GlcNAc",
+     "parent": null,
+     "where": "core, reducing end",
+     "pos": [
+      6,
+      1
+     ]
+    }
+   ],
+   "text": {
+    "upper": [
+     "n-neuac-6",
+     "n-gal-6",
+     "n-glcnac-6",
+     "n-man-6"
+    ],
+    "lower": [
+     "n-neuac-3",
+     "n-gal-3",
+     "n-glcnac-3",
+     "n-man-3"
+    ],
+    "core": [
+     "n-man-core",
+     "n-glcnac-2",
+     "n-glcnac-1"
+    ],
+    "top": "n-fuc"
+   }
+  },
+  {
+   "id": "o",
+   "title": "O-linked glycan",
+   "aglycon": "Thr",
+   "aglyconName": "threonine",
+   "aglyconGeneral": "Thr/Ser",
+   "aglyconGeneralName": "threonine or serine",
+   "aglyconNote": "General label for the O-GalNAc core: GalNAc can be linked to threonine or to serine. The example structure of the supplied figure is linked to Thr; the 2D text view keeps that concrete example.",
+   "residues": [
+    {
+     "id": "o-neuac-6",
+     "sugar": "NeuAc",
+     "parent": "o-gal-6",
+     "anomer": "α",
+     "from": 2,
+     "to": 3,
+     "where": "β1-6 branch",
+     "pos": [
+      0,
+      0
+     ]
+    },
+    {
+     "id": "o-gal-6",
+     "sugar": "Gal",
+     "parent": "o-glcnac-6",
+     "anomer": "β",
+     "from": 1,
+     "to": 4,
+     "where": "β1-6 branch",
+     "pos": [
+      1,
+      0
+     ]
+    },
+    {
+     "id": "o-glcnac-6",
+     "sugar": "GlcNAc",
+     "parent": "o-galnac",
+     "anomer": "β",
+     "from": 1,
+     "to": 6,
+     "where": "β1-6 branch, branch point",
+     "pos": [
+      2,
+      0
+     ]
+    },
+    {
+     "id": "o-neuac-3",
+     "sugar": "NeuAc",
+     "parent": "o-gal-3",
+     "anomer": "α",
+     "from": 2,
+     "to": 3,
+     "where": "β1-3 branch",
+     "pos": [
+      1,
+      1
+     ]
+    },
+    {
+     "id": "o-gal-3",
+     "sugar": "Gal",
+     "parent": "o-galnac",
+     "anomer": "β",
+     "from": 1,
+     "to": 3,
+     "where": "β1-3 branch, branch point",
+     "pos": [
+      2,
+      1
+     ]
+    },
+    {
+     "id": "o-galnac",
+     "sugar": "GalNAc",
+     "parent": null,
+     "anomer": "α",
+     "where": "reducing end",
+     "pos": [
+      3,
+      0.5
+     ]
+    }
+   ],
+   "text": {
+    "upper": [
+     "o-neuac-6",
+     "o-gal-6",
+     "o-glcnac-6"
+    ],
+    "lower": [
+     "o-neuac-3",
+     "o-gal-3"
+    ],
+    "core": [
+     "o-galnac"
+    ]
+   }
+  }
+ ],
+ "chart": {
+  "_about": "The 18 symbols of the chart 'Symbol nomenclature of glycan structures', redrawn as vector symbols from the original raster chart (assets/images/Glycan_nomenclature_small.png, kept unchanged). Names and RGB codes are the ones recorded with the original chart (content/legacy-extract.json); 'kind' describes the drawing as seen in the original: which part is coloured and which part is white. White parts are content, not background.",
+  "symbols": [
+   {
+    "name": "Galactose (Gal)",
+    "kind": "circle",
+    "rgb": [
+     255,
+     255,
+     0
+    ]
+   },
+   {
+    "name": "N-Acetylgalactosamine (GalNAc)",
+    "kind": "square",
+    "rgb": [
+     255,
+     255,
+     0
+    ]
+   },
+   {
+    "name": "Galactosamine (GalN)",
+    "kind": "square-half",
+    "rgb": [
+     255,
+     255,
+     0
+    ]
+   },
+   {
+    "name": "N-Acetylneuraminic acid (Neu5Ac)",
+    "kind": "diamond",
+    "rgb": [
+     200,
+     0,
+     200
+    ]
+   },
+   {
+    "name": "N-Glycolylneuraminic acid (Neu5Gc)",
+    "kind": "diamond",
+    "rgb": [
+     233,
+     255,
+     255
+    ]
+   },
+   {
+    "name": "2-Keto-3-deoxynononic acid",
+    "kind": "diamond-hatch",
+    "rgb": [
+     0,
+     200,
+     50
+    ]
+   },
+   {
+    "name": "Glucose (Glc)",
+    "kind": "circle",
+    "rgb": [
+     0,
+     0,
+     250
+    ]
+   },
+   {
+    "name": "N-Acetylglucosamine (GlcNAc)",
+    "kind": "square",
+    "rgb": [
+     0,
+     0,
+     250
+    ]
+   },
+   {
+    "name": "Glucosamine (GlcN)",
+    "kind": "square-half",
+    "rgb": [
+     0,
+     0,
+     250
+    ]
+   },
+   {
+    "name": "Fucose (Fuc)",
+    "kind": "triangle",
+    "rgb": [
+     250,
+     0,
+     0
+    ]
+   },
+   {
+    "name": "Glucuronic acid (GlcA)",
+    "kind": "diamond-top",
+    "rgb": [
+     0,
+     0,
+     250
+    ]
+   },
+   {
+    "name": "Galacturonic acid (GalA)",
+    "kind": "diamond-left",
+    "rgb": [
+     255,
+     255,
+     0
+    ]
+   },
+   {
+    "name": "Mannose (Man)",
+    "kind": "circle",
+    "rgb": [
+     0,
+     200,
+     50
+    ]
+   },
+   {
+    "name": "N-Acetylmannosamine (ManNAc)",
+    "kind": "square",
+    "rgb": [
+     0,
+     200,
+     50
+    ]
+   },
+   {
+    "name": "Mannosamine (ManN)",
+    "kind": "square-half",
+    "rgb": [
+     0,
+     200,
+     50
+    ]
+   },
+   {
+    "name": "Xylose (Xyl)",
+    "kind": "star",
+    "rgb": [
+     250,
+     234,
+     213
+    ]
+   },
+   {
+    "name": "Iduronic acid (IdoA)",
+    "kind": "diamond-bottom",
+    "rgb": [
+     150,
+     100,
+     50
+    ]
+   },
+   {
+    "name": "Mannuronic acid (ManA)",
+    "kind": "diamond-right",
+    "rgb": [
+     0,
+     200,
+     50
+    ]
+   }
+  ]
+ },
+ "textFigure": {
+  "_about": "Content of the supplied figure 'Text nomenclature.png' (read from the figure, 2026-11-25): one glycan in linear and in 2D notation.",
+  "title": "Modified IUPAC condensed",
+  "linear": "NeuAcα2-3Galβ1-4(Fucα1-3)GlcNAcβ1-2Manα1-R",
+  "upper": "NeuAcα2-3Galβ1",
+  "upperPos": "4",
+  "core": "GlcNAcβ1-2Manα1-R",
+  "lower": "Fucα1",
+  "lowerPos": "3",
+  "alt": "Modified IUPAC condensed text nomenclature. Linear: NeuAcα2-3Galβ1-4(Fucα1-3)GlcNAcβ1-2Manα1-R. 2D: NeuAcα2-3Galβ1 is linked to position 4 and Fucα1 to position 3 of GlcNAcβ1-2Manα1-R."
+ }
+}

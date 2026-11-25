@@ -1,0 +1,319 @@
+{
+ "_about": "Entries added on 2026-11-25 from PDFs supplied by the site owner (originals: Brain raw/inbox/website-feedback-2026-11-25, copies in site/additions/). Title, authors and abstract are verbatim from the PDF (ligatures and line-break hyphens repaired). Figures were cut from the PDF pages at 216 dpi; captions are the first sentence of each printed legend.",
+ "papers": [
+  {
+   "id": "paper-15",
+   "legacyNumber": 15,
+   "title": "Glycocalyx-mediated Cell Adhesion and Migration",
+   "authors": "Samuel Schmidt, Bettina Weigelin, Joost te Riet, Veronika te Boekhorst, Mariska te Lindert, Mietske Wijers-Rouw, Barbara Lelli, Lorenz Rognoni, Marina Krause-Vortmeyer, Anthea Messent, Luisa Bracci, Kay-Eberhard Gottschalk, Stephan Kissler, Martin J. Humphries, Dirk J. Lefeber, Jack Fransen, Peter Friedl",
+   "authorsShort": "Schmidt, S. et al.",
+   "shortTitle": "Glycocalyx-mediated cell adhesion and migration",
+   "abstract": "Cell migration is a force-dependent adaptive process mediated by integrin-dependent adhesion as well as other yet poorly defined interactions to the extracellular matrix. Using enzymatic multi-targeted digestion of sugar moieties on the surface of mesenchymal cells and leukocytes after interference with integrin function, we demonstrate that the surface glycocalyx represents an independent adhesion system. The glycocalyx mediates cell attachment to ECM ligand in the 100-500 pN force range and amoeboid migration in 3D environments in vitro and in vivo. Glycan-based adhesions consist of actin-rich membrane deformations and appositions associated with bleb-like and other protrusions forming complex-shaped sub-micron contact sites to ECM fibrils. These data implicate the glycocalyx in mediating generic stickiness to support nanoscale interactions (nanogrips) between the cell surface and ECM, mechano-coupling, and migration.",
+   "abstractSource": "pdf",
+   "categories": [
+    "preprint",
+    "first",
+    "cancer"
+   ],
+   "statusNote": "Preprint posted on bioRxiv on 13 June 2020; not certified by peer review. Cell lines in 3D collagen in vitro and intravital microscopy in mice.",
+   "pdf": "papers_pdfs/15/Glycocalyx-mediated Cell Adhesion and Migration.pdf",
+   "figures": [
+    {
+     "file": "papers/paper-15/fig1.png",
+     "caption": "Fig. 1. Conversion to amoeboid migration in mesenchymal tumor cells, fibroblasts and T lymphoma cells after interference with integrins.",
+     "page": 28
+    },
+    {
+     "file": "papers/paper-15/fig2.png",
+     "caption": "Fig. 2. Enzymatic removal of the glycocalyx.",
+     "page": 29
+    },
+    {
+     "file": "papers/paper-15/fig3.png",
+     "caption": "Fig. 3. Surface-glycan dependent cell migration in vitro and in vivo.",
+     "page": 30
+    },
+    {
+     "file": "papers/paper-15/fig4.png",
+     "caption": "Fig. 4. Probing of glycan-binding to collagen fibers and studying the impact of enzymatic digestion of the glycocalyx on glycan-mediated cell binding to collagen.",
+     "page": 31
+    },
+    {
+     "file": "papers/paper-15/fig5.png",
+     "caption": "Fig. 5. Cell morphology and cellular interactions to collagen fibers of MV3, MEF and Molt-4 cells and the impact of glycan removal.",
+     "page": 33
+    },
+    {
+     "file": "papers/paper-15/fig6.png",
+     "caption": "Fig. 6. Organization of glycan-dependent cell-matrix interactions.",
+     "page": 35
+    },
+    {
+     "file": "papers/paper-15/fig7.png",
+     "caption": "Fig. 7. Morphology of glycan-dependent cell-matrix interactions.",
+     "page": 36
+    }
+   ],
+   "thumb": 2,
+   "links": [
+    {
+     "type": "preprint",
+     "label": "bioRxiv",
+     "row": "Preprint on bioRxiv",
+     "url": "https://www.biorxiv.org/content/10.1101/2020.06.12.149096v1",
+     "aria": "Open the preprint on bioRxiv: Glycocalyx-mediated cell adhesion and migration"
+    }
+   ]
+  },
+  {
+   "id": "paper-16",
+   "legacyNumber": 16,
+   "title": "The surface stress of biomedical silicones is a stimulant of cellular response",
+   "authors": "Zhu Cheng, Carolyn R. Shurer, Samuel Schmidt, Vivek K. Gupta, Grace Chuang, Jin Su, Amanda R. Watkins, Abhishek Shetty, Jason A. Spector, Chung-Yuen Hui, Heidi L. Reesink, Matthew J. Paszek",
+   "authorsShort": "Cheng, Z., Shurer, C.R., Schmidt, S. et al.",
+   "shortTitle": "Surface stress of biomedical silicones",
+   "abstract": "Silicones are commonly used for lubrication of syringes, encapsulation of medical devices, and fabrication of surgical implants. While silicones are generally viewed as relatively inert to the cellular milieu, they can mediate a variety of inflammatory responses and other deleterious effects, but the mechanisms underlying the bioactivity of silicones remain unresolved. Here, we report that silicone liquids and gels have high surface stresses that can strongly resist deformation at cellular length scales. Biomedical silicones, including syringe lubricants and fillings from FDA-approved breast implants, readily adsorb matrix proteins and activate canonical rigidity sensing pathways through their surface stresses. In 3D culture models, liquid silicone droplets support robust cellular adhesion and the formation of multinucleated monocyte-derived cell masses that recapitulate phenotypic aspects of granuloma formation in the foreign body response. Together, our findings implicate surface stress as a cellular stimulant that should be considered in application of silicones for biomedical purposes.",
+   "abstractSource": "pdf",
+   "categories": [
+    "primary"
+   ],
+   "statusNote": "",
+   "pdf": "papers_pdfs/16/The surface stress of biomedical silicones is a stimulant of cellular response.pdf",
+   "figures": [
+    {
+     "file": "papers/paper-16/fig1.png",
+     "caption": "Fig. 1. Silicone liquids and soft gels stimulate rigidity signaling responses.",
+     "page": 3
+    },
+    {
+     "file": "papers/paper-16/fig2.png",
+     "caption": "Fig. 2. Cellular stimulation by silicone is not explained by differences in ligand tethering.",
+     "page": 4
+    },
+    {
+     "file": "papers/paper-16/fig3.png",
+     "caption": "Fig. 3. Silicone substrates have high surface energies and surface stresses.",
+     "page": 5
+    },
+    {
+     "file": "papers/paper-16/fig4.png",
+     "caption": "Fig. 4. Surfactant treatment reduces silicone surface stresses and attenuates rigidity responses.",
+     "page": 6
+    },
+    {
+     "file": "papers/paper-16/fig5.png",
+     "caption": "Fig. 5. Silicone stimulates foreign body–like responses.",
+     "page": 7
+    }
+   ],
+   "thumb": 0,
+   "links": [
+    {
+     "type": "link",
+     "label": "Science Advances",
+     "row": "Article at Science Advances",
+     "url": "https://www.science.org/doi/10.1126/sciadv.aay0076",
+     "aria": "Open the article at Science Advances: surface stress of biomedical silicones"
+    }
+   ]
+  },
+  {
+   "id": "paper-17",
+   "legacyNumber": 17,
+   "title": "Recombinant manufacturing of multispecies biolubricants",
+   "authors": "Marshall J. Colville, Ling-Ting Huang, Samuel Schmidt, Kevin Chen, Karan Vishwanath, Jin Su, Rebecca M. Williams, Lawrence J. Bonassar, Heidi L. Reesink, Matthew J. Paszek",
+   "authorsShort": "Colville, M.J., Huang, L.-T., Schmidt, S. et al.",
+   "shortTitle": "Recombinant manufacturing of multispecies biolubricants",
+   "abstract": "Lubricin, a lubricating glycoprotein abundant in synovial fluid, forms a low-friction brush polymer interface in tissues exposed to sliding motion including joints, tendon sheaths, and the surface of the eye. Despite its therapeutic potential in diseases such as osteoarthritis and dry eye disease, there are few sources available. Through rational design, we developed a series of recombinant lubricin analogs that utilize the species-specific tissue-binding domains at the N- and C-termini to increase biocompatibility while replacing the central mucin domain with an engineered variant that retains the lubricating properties of native lubricin. In this study, we demonstrate the tissue binding capacity of our engineered lubricin product and its retention in the joint space of rats. Next, we present a new bioprocess chain that utilizes a human-derived cell line to produce O-glycosylation consistent with that of native lubricin and a purification strategy that capitalizes on the positively charged, hydrophobic N- and C-terminal domains. The bioprocess chain is demonstrated at 10 L scale in industry-standard equipment utilizing commonly available ion exchange, hydrophobic interaction and size exclusion chromatography resins. Finally, we confirmed the purity and lubricating properties of the recombinant biolubricant. The biomolecular engineering and bioprocessing strategies presented here are an effective means of lubricin production and could have broad applications to the study of mucins in general.",
+   "abstractSource": "pdf",
+   "categories": [
+    "preprint",
+    "development"
+   ],
+   "statusNote": "Preprint posted on bioRxiv on 5 May 2024; not certified by peer review. Tissue binding was tested on bovine cartilage explants and joint retention in rats.",
+   "pdf": "papers_pdfs/17/Recombinant manufacturing of multispecies biolubricants.pdf",
+   "figures": [
+    {
+     "file": "papers/paper-17/fig1.png",
+     "caption": "Figure 1: Generation of multispecies recombinant lubricins (rLub).",
+     "page": 7
+    },
+    {
+     "file": "papers/paper-17/fig2.png",
+     "caption": "Figure 2: Retention kinetics of recombinant human-like lubricin following intra-articular injection.",
+     "page": 9
+    },
+    {
+     "file": "papers/paper-17/fig3.png",
+     "caption": "Figure 3: A scalable bioprocess chain to produce recombinant lubricin.",
+     "page": 10
+    },
+    {
+     "file": "papers/paper-17/fig4.png",
+     "caption": "Figure 4: Cation exchange chromatography is a high-resolution capture operation.",
+     "page": 11
+    },
+    {
+     "file": "papers/paper-17/fig5.png",
+     "caption": "Figure 5: Intermediate purification with hydrophobic interaction chromatography removes most residual impurities.",
+     "page": 12
+    },
+    {
+     "file": "papers/paper-17/fig6.png",
+     "caption": "Figure 6: Polishing by size exclusion chromatography results in a high-purity product.",
+     "page": 13
+    },
+    {
+     "file": "papers/paper-17/fig7.png",
+     "caption": "Figure 7: Recombinant lubricin is an effective cartilage lubricant.",
+     "page": 14
+    }
+   ],
+   "thumb": 0,
+   "links": [
+    {
+     "type": "preprint",
+     "label": "bioRxiv",
+     "row": "Preprint on bioRxiv",
+     "url": "https://www.biorxiv.org/content/10.1101/2024.05.05.592580v1",
+     "aria": "Open the preprint on bioRxiv: Recombinant manufacturing of multispecies biolubricants"
+    }
+   ]
+  },
+  {
+   "id": "paper-18",
+   "legacyNumber": 18,
+   "title": "Guide selection transfers depletion effects across noncanonical ORF screens",
+   "authors": "Robin Gounder, Samuel Schmidt",
+   "authorsShort": "Gounder, R. & Schmidt, S.",
+   "shortTitle": "Guide selection across noncanonical ORF screens",
+   "abstract": "CRISPR fitness screens help prioritize noncanonical open reading frames (nORFs) for biological follow-up, but cross-study agreement can reflect both product dependencies and shared guide responses. We reconstructed complete reference ORFs and matched exact guide sequences across published human screens to quantify how earlier guide selection changes later depletion estimates. Among 105 matched products with 471 shared guides in three cell lines, relative guide responses remained correlated after subtracting each product-by-cell mean (equal-product weighted r = 0.643; nominal 95% dependence-cluster interval 0.576-0.696). In a retrospective 87-product scenario, selecting the two most-depleting earlier guides shifted the later score by −0.202 log2 units relative to the expected score under uniform random two-guide selection (nominal 95% interval −0.246 to −0.160). A post hoc sensitivity excluding the evaluated cell from the earlier selection score retained a shift. An analytical and synthetic positive control shows that shared on-target guide efficacy acting on a true dependency can generate both centred correspondence and selection shifts. The count-balanced difference in product-level agreement between reused and newly designed guides remained uncertain (0.086; 97.5% interval −0.094 to 0.268). A third publication provided product-level rank agreement across 196 exact products (Spearman ρ = 0.462), with guide reuse unresolved. These results quantify a consequence of guide-selection history in matched nORF screens; attributing depletion to a peptide, RNA or local regulatory mechanism requires complementary evidence.",
+   "abstractSource": "pdf",
+   "categories": [
+    "preprint",
+    "datascience"
+   ],
+   "statusNote": "Preprint on SSRN; manuscript dated 29 October 2026. Retrospective re-analysis of published CRISPR screens; no new experiments.",
+   "pdf": "papers_pdfs/18/Guide Selection Transfers Depletion Effects across Noncanonical ORF Screens.pdf",
+   "figures": [
+    {
+     "file": "papers/paper-18/fig1.png",
+     "caption": "Figure 1: Product correspondence and analytical cohorts.",
+     "page": 9
+    },
+    {
+     "file": "papers/paper-18/fig2.png",
+     "caption": "Figure 2: Persistent within-product guide responses.",
+     "page": 11
+    },
+    {
+     "file": "papers/paper-18/fig3.png",
+     "caption": "Figure 3: Earlier guide selection shifts later depletion estimates.",
+     "page": 12
+    },
+    {
+     "file": "papers/paper-18/fig4.png",
+     "caption": "Figure 4: Product-level reused/fresh uncertainty.",
+     "page": 13
+    },
+    {
+     "file": "papers/paper-18/fig5.png",
+     "caption": "Figure 5: Third-publication aggregate product agreement.",
+     "page": 14
+    },
+    {
+     "file": "papers/paper-18/figS1.png",
+     "caption": "Figure S1: Declared conditional-guide sensitivities.",
+     "page": 27
+    },
+    {
+     "file": "papers/paper-18/figS2.png",
+     "caption": "Figure S2: Descriptive third-publication priority overlap.",
+     "page": 27
+    },
+    {
+     "file": "papers/paper-18/figS3.png",
+     "caption": "Figure S3: Fixed synthetic shared-efficacy positive control.",
+     "page": 28
+    }
+   ],
+   "thumb": 1,
+   "links": [
+    {
+     "type": "code",
+     "label": "GitHub",
+     "row": "Data and analysis code (GitHub)",
+     "url": "https://github.com/Kohze/norf-guide-selection",
+     "aria": "Open norf-guide-selection on GitHub"
+    },
+    {
+     "type": "ssrn",
+     "label": "SSRN",
+     "row": "Preprint on SSRN",
+     "url": "https://www.ssrn.com/abstract=7686519",
+     "aria": "Open the SSRN preprint: Guide selection across noncanonical ORF screens"
+    }
+   ]
+  },
+  {
+   "id": "paper-19",
+   "legacyNumber": 19,
+   "title": "Experimental context limits transfer of microprotein sequence scores",
+   "authors": "Robin Gounder, Samuel Schmidt",
+   "authorsShort": "Gounder, R. & Schmidt, S.",
+   "shortTitle": "Transfer of microprotein sequence scores",
+   "abstract": "Sequence scores offer a way to prioritize microproteins encoded by noncanonical open reading frames and propose edits that alter their accumulation. We reanalysed published measurements to test whether these scores remain useful across reporter contexts, independent peptide datasets and paired sequence edits. Among 1,072 development constructs, an annotation-based composition score correlated negatively with reporter accumulation (Spearman ρ = −0.292), whereas models trained on accumulation reached 0.747 using composition and 0.780 with a richer terminal-aware representation. On the same 1,044 peptides across reporters, the within-GFP advantage of the richer representation was uncertain (∆ρ = 0.021, conditional 95% interval −0.005 to 0.046). When applied to microprotein–mCherry, the GFP-trained richer model reached ρ = 0.560, compared with 0.663 for composition alone and 0.742 for a model trained on the target reporter. The paired composition-minus-richer contrast was 0.103 (conditional 95% interval 0.078 to 0.132). Tests on independent canonical peptides and 1,743 paired sequence changes showed that model comparisons also depended on input coverage, training exposure and whether the task was ranking peptides, selecting a subset or predicting edit effects. Strong published baselines reduced several apparent advantages. These retrospective benchmarks quantify predictive portability within the tested populations; they do not isolate causal effects of reporter components. Performance in one reporter does not justify sequence editing or use in another assay without testing. Native turnover and peptide-dependent function require separate experiments.",
+   "abstractSource": "pdf",
+   "categories": [
+    "preprint",
+    "datascience"
+   ],
+   "statusNote": "Preprint on SSRN; manuscript dated 10 November 2026. Retrospective benchmark of published reporter measurements; no new experiments.",
+   "pdf": "papers_pdfs/19/Experimental Context Limits Transfer of Microprotein Sequence Scores.pdf",
+   "figures": [
+    {
+     "file": "papers/paper-19/fig1.png",
+     "caption": "Fig 1. Reporter ranking and within-study transfer.",
+     "page": 4
+    },
+    {
+     "file": "papers/paper-19/fig2.png",
+     "caption": "Fig 2. Same-peptide agreement and model transfer.",
+     "page": 5
+    },
+    {
+     "file": "papers/paper-19/fig3.png",
+     "caption": "Fig 3. Source context and decision metric change the transfer comparison.",
+     "page": 7
+    },
+    {
+     "file": "papers/paper-19/fig4.png",
+     "caption": "Fig 4. Published baseline challenge across two fixed cohorts.",
+     "page": 8
+    },
+    {
+     "file": "papers/paper-19/fig5.png",
+     "caption": "Fig 5. Overlap with training data and matched sequence inputs change model comparisons.",
+     "page": 9
+    }
+   ],
+   "thumb": 1,
+   "links": [
+    {
+     "type": "code",
+     "label": "GitHub",
+     "row": "Data and analysis code (GitHub)",
+     "url": "https://github.com/Kohze/microprotein-score-transfer",
+     "aria": "Open microprotein-score-transfer on GitHub"
+    },
+    {
+     "type": "ssrn",
+     "label": "SSRN",
+     "row": "Preprint on SSRN",
+     "url": "https://www.ssrn.com/abstract=7688762",
+     "aria": "Open the SSRN preprint: Transfer of microprotein sequence scores"
+    }
+   ]
+  }
+ ]
+}

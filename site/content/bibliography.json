@@ -1,0 +1,200 @@
+{
+ "paper-01": {
+  "pages": 27,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2010,
+  "doi": "10.1002/anie.201003761",
+  "journal": "Angew. Chem. Int. Ed.",
+  "volume_issue_pages": "49 (49), 9422–9425",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-02": {
+  "pages": 10,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2010,
+  "doi": "10.1007/s00441-009-0892-9",
+  "journal": "Cell Tissue Res",
+  "yearNote": "published online 2009",
+  "volume_issue_pages": "339 (1), 83–92",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-03": {
+  "pages": 15,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2013,
+  "doi": "10.1212/WNL.0b013e3182a08f53",
+  "journal": "Neurology",
+  "volume_issue_pages": "81 (7), 681–687",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-04": {
+  "pages": 14,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2017,
+  "doi": "10.1021/acs.bioconjchem.6b00535",
+  "journal": "Bioconjugate Chem.",
+  "yearNote": "published online 2016",
+  "volume_issue_pages": "28 (2), 382–389",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-05": {
+  "pages": 22,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2015,
+  "doi": "10.1002/anie.201505913",
+  "journal": "Angew. Chem. Int. Ed.",
+  "volume_issue_pages": "54 (50), 15105–15108",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-06": {
+  "pages": 9,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2015,
+  "doi": "10.1007/978-1-4939-2806-4_8",
+  "document_type": "Book chapter",
+  "listLabel": "In: Cell-Penetrating Peptides (Methods Mol. Biol. 1324)",
+  "book": {
+   "title": "Cell-Penetrating Peptides: Methods and Protocols",
+   "edition": "2nd edition",
+   "editor": "Ülo Langel",
+   "series": "Methods in Molecular Biology, vol. 1324",
+   "pages": "123–131",
+   "publisher": "Springer, New York"
+  },
+  "bookSource": "Crossref chapter and book records (10.1007/978-1-4939-2806-4_8, 10.1007/978-1-4939-2806-4), checked 2026-11-25 (DSH jobs j-mww6ky3etjgi, j-mww6l2rhoeid); volume 1324 and second edition from the Springer book page as recorded by the site owner on 2026-11-25"
+ },
+ "paper-07": {
+  "pages": 22,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2013,
+  "doi": "10.1007/s00018-013-1517-8",
+  "journal": "Cellular and Molecular Life Sciences",
+  "yearNote": "published online; issue data not in the Crossref record"
+ },
+ "paper-08": {
+  "pages": 2,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "document_type": "Two-page abstract summary (the PDF carries no journal, year or DOI)"
+ },
+ "paper-09": {
+  "pages": 23,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2013,
+  "doi": "10.1016/j.jconrel.2013.05.001",
+  "journal": "Journal of Controlled Release",
+  "volume_issue_pages": "170 (1), 83–91",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-10": {
+  "pages": 10,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2014,
+  "doi": "10.1016/j.jconrel.2014.02.011",
+  "journal": "Journal of Controlled Release",
+  "volume_issue_pages": "180, 81–90",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-11": {
+  "pages": 13,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2014,
+  "doi": "10.1371/journal.pone.0111806",
+  "journal": "PLoS ONE",
+  "volume_issue_pages": "9 (11), e111806",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-12": {
+  "pages": 15,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2017,
+  "doi": "10.1002/cyto.a.23172",
+  "journal": "Cytometry Part A",
+  "volume_issue_pages": "91 (8), 810–814",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-13": {
+  "pages": 14,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2017,
+  "doi": "10.1021/acs.jmedchem.7b00813",
+  "journal": "J. Med. Chem.",
+  "volume_issue_pages": "60 (19), 8071–8082",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "paper-14": {
+  "pages": 1,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text",
+  "year": 2011,
+  "doi": "10.1055/s-0030-1259250",
+  "journal": "Synfacts",
+  "volume_issue_pages": "2011 (2), 0157",
+  "document_type": "Synfacts highlight of the Angewandte Chemie paper (publication 01)",
+  "crossref": "volume, issue, pages and year from the Crossref record of the DOI, checked 2026-11-25"
+ },
+ "project-01": {
+  "pages": 5,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text"
+ },
+ "project-02": {
+  "pages": 2,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text"
+ },
+ "project-03": {
+  "pages": 6,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text"
+ },
+ "project-04": {
+  "pages": 6,
+  "source": "PDF first pages, extracted 2026-11-24 (DSH job j-mwv6uvn003md), values checked against extracted text"
+ },
+ "paper-15": {
+  "journal": "bioRxiv",
+  "preprint": true,
+  "year": 2020,
+  "dateText": "13 June 2020",
+  "yearLabel": "Posted",
+  "doi": "10.1101/2020.06.12.149096",
+  "document_type": "preprint",
+  "pages": 37
+ },
+ "paper-16": {
+  "journal": "Science Advances",
+  "year": 2020,
+  "volume_issue_pages": "6 (15), eaay0076",
+  "dateText": "10 April 2020",
+  "yearLabel": "Published",
+  "doi": "10.1126/sciadv.aay0076",
+  "document_type": "journal article",
+  "pages": 13
+ },
+ "paper-17": {
+  "journal": "bioRxiv",
+  "preprint": true,
+  "year": 2024,
+  "dateText": "5 May 2024",
+  "yearLabel": "Posted",
+  "doi": "10.1101/2024.05.05.592580",
+  "document_type": "preprint",
+  "pages": 18
+ },
+ "paper-18": {
+  "journal": "SSRN",
+  "preprint": true,
+  "year": 2026,
+  "dateText": "29 October 2026",
+  "yearLabel": "Manuscript date",
+  "doi": "10.2139/ssrn.7686519",
+  "document_type": "preprint",
+  "pages": 28
+ },
+ "paper-19": {
+  "journal": "SSRN",
+  "preprint": true,
+  "year": 2026,
+  "dateText": "10 November 2026",
+  "yearLabel": "Manuscript date",
+  "doi": "10.2139/ssrn.7688762",
+  "document_type": "preprint",
+  "pages": 26
+ }
+}

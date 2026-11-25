@@ -1,0 +1,382 @@
+{
+  "checked_on": "2026-11-24",
+  "method": "Geöffnete Live-Website über verbundenen Chrome gelesen, einschließlich 14 Paper- und 4 Projekt-Detailseiten; keine Nachrichten gesendet.",
+  "origin": "http://glycosearch.com/",
+  "scope": "Home, About, Papers, Projects und alle 18 dort verlinkten Detailseiten; keine vollständige Server-Dateiinventur.",
+  "papers": [
+    {
+      "id": "paper-01",
+      "legacy_number": 1,
+      "title": "Readily Accessible Bicyclononynes for Bioorthogonal Labeling and Three-Dimensional Imaging of Living Cells",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project1.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/1/Readily Accessible Bicyclononynes for Bioorthogonal Labeling and Three-Dimensional Imaging of Living Cells.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-02",
+      "legacy_number": 2,
+      "title": "Interstitial cell migration: integrin-dependent and alternative adhesion mechanisms",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project2.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/2/Interstitial cell migration integrin-dependent and alternative adhesion mechanisms.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-03",
+      "legacy_number": 3,
+      "title": "Intellectual disability and bleeding diathesis due to deficient CMP-sialic acid transport",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project3.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/3/Intellectual disability and bleeding diathesis due to deficient CMP-sialic acid transport.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-04",
+      "legacy_number": 4,
+      "title": "Identification of Short Hydrophobic Cell-Penetrating Peptides for Cytosolic Peptide Delivery by Rational Design",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project4.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/4/Identification of Short Hydrophobic Cell-Penetrating Peptides for Cytosolic Peptide Delivery by Rational Design.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [
+        {
+          "label": "App",
+          "url": "https://frapbotbeta.shinyapps.io/peptify/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Kohze/Peptify.git"
+        }
+      ],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-05",
+      "legacy_number": 5,
+      "title": "Detecting Cytosolic Peptide Delivery with the GFP Complementation Assay in the Low Micromolar Range",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project5.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/5/Detecting Cytosolic Peptide Delivery with the GFP Complementation Assay in the Low Micromolar Range.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-06",
+      "legacy_number": 6,
+      "title": "Methods to Study the Role of the Glycocalyx in the Uptake of Cell-Penetrating Peptides",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project6.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/6/Methods to Study the Role of the Glycocalyx in the Uptake of Cell-Penetrating Peptides.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-07",
+      "legacy_number": 7,
+      "title": "The stoichiometry of peptide‐heparan sulfate binding as a determinant of uptake effiency of cell‐penetrating peptides",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project7.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/7/The stoichiometry of peptide.pdf",
+      "pdf_local_legacy_exists": false,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-08",
+      "legacy_number": 8,
+      "title": "The Multifaceted Role of Glycosaminoglycans in the Cellular Uptake of Cell-Penetrating Peptides",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project8.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/8/The Multifaceted Role of Glycosaminoglycans in the Cellular Uptake of Cell-Penetrating Peptides.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-09",
+      "legacy_number": 9,
+      "title": "Cell surface clustering of heparan sulfate proteoglycans by amphipathic cell-penetrating peptides does not contribute to uptake",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project9.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/9/Cell surface clustering of heparan sulfate proteoglycans by amphipathic cell-penetrating peptides does not contribute to uptake.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-10",
+      "legacy_number": 10,
+      "title": "Glycosaminoglycans in the cellular uptake of drug delivery vectors-Bystanders or active players?",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project10.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/10/Glycosaminoglycans in the cellular uptake of drug delivery vectors-Bystanders or active players.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-11",
+      "legacy_number": 11,
+      "title": "Primary Ovarian Carcinomas and Abdominal Metastasis Contain 4,6-Disulfated Chondroitin Sulfate Rich Regions, Which Provide Adhesive Properties to Tumour Cells",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project11.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/11/Primary Ovarian Carcinomas and Abdominal Metastasis Contain 4,6-Disulfated Chondroitin Sulfate Rich Regions, Which Provide Adhesive Properties to Tumour Cells.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-12",
+      "legacy_number": 12,
+      "title": "Frapbot: An Open-Source Application for FRAP Data",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project12.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/12/Frapbot An Open-Source Application for FRAP Data.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [
+        {
+          "label": "App",
+          "url": "http://frapbot.kohze.com"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Kohze/Frapbot"
+        },
+        {
+          "label": "ETH Zurich",
+          "url": "https://scopem.ethz.ch/education/knowledge-resources/FRAPandFLIP.html?fbclid=IwAR2KoUDXdmYyRwZrXWjYo9T444FMmnRYf5-ecpolg94fy49-9UXwxfyBfpc"
+        },
+        {
+          "label": "Press",
+          "url": "https://www.radboudumc.nl/en/news/2017/frapbot-a-web-application-for-frap-data-analysis"
+        }
+      ],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-13",
+      "legacy_number": 13,
+      "title": "Lactam-Stapled Cell-Penetrating Peptides Cell Uptake and Membrane Binding Properties",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project13.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/13/Lactam-Stapled Cell-Penetrating Peptides Cell Uptake and Membrane Binding Properties.pdf",
+      "pdf_local_legacy_exists": true,
+      "actions": [
+        {
+          "label": "Get Manual",
+          "url": "http://glycosearch.com/manuals/13/PROTEIN ORIGAMI.pdf"
+        },
+        {
+          "label": "App",
+          "url": "http://www.ibg.kit.edu/protein_origami/?page=index"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sabinereisser/protein_origami"
+        }
+      ],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    },
+    {
+      "id": "paper-14",
+      "legacy_number": 14,
+      "title": "Bicyclononynes: New Ring-Strained Alkynes for Bioorthogonal Labeling",
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery/project14.html",
+      "pdf_url": "http://glycosearch.com/papers_pdfs/14/Bicyclononynes.pdf",
+      "pdf_local_legacy_exists": false,
+      "actions": [],
+      "status": "Live-Detailseite und Linkziele gelesen; vollständiger Downloadtest noch offen"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-01",
+      "title": "Firedata - Connecting R to Google Firebase",
+      "actions": [
+        {
+          "label": "Wiki",
+          "url": "https://github.com/rstats-gsoc/gsoc2017/wiki/FireData---Connecting-R-to-Google-Firebase"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Kohze/fireData"
+        },
+        {
+          "label": "R",
+          "url": "https://summerofcode.withgoogle.com/archive/2017/organizations/5555424770129920/"
+        },
+        {
+          "label": "Press",
+          "url": "https://www.radboudumc.nl/en/news/2017/prestigious-google-soc-grant"
+        }
+      ],
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery-projects/project1.html",
+      "pdf_url": "http://glycosearch.com/projects_pdfs/1/Connecting R to Google Firebase FireData.pdf"
+    },
+    {
+      "id": "project-02",
+      "title": "Discovr - Streamlining Statistical Data Analysis",
+      "actions": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Kohze/Discovr"
+        },
+        {
+          "label": "R",
+          "url": "https://summerofcode.withgoogle.com/archive/2016/organizations/6032418200879104/"
+        }
+      ],
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery-projects/project2.html",
+      "pdf_url": "http://glycosearch.com/projects_pdfs/2/Discovr-Streamlining statistical data analysis.pdf"
+    },
+    {
+      "id": "project-03",
+      "title": "Firedata-Enabling easy cloud stats through Cloud Firestore",
+      "actions": [
+        {
+          "label": "GSOC",
+          "url": "https://summerofcode.withgoogle.com/archive/2018/projects/6088046147534848/"
+        },
+        {
+          "label": "R",
+          "url": "https://summerofcode.withgoogle.com/archive/2018/organizations/6343413561556992/"
+        },
+        {
+          "label": "Press",
+          "url": "https://www.radboudumc.nl/en/news/2018/prestigious-google-soc-grants-for-robin-kohze-and-samuel-schmidt"
+        }
+      ],
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery-projects/project3.html",
+      "pdf_url": "http://glycosearch.com/projects_pdfs/3/Firedata-Enabling easy cloud stats through Cloud Firestore.pdf"
+    },
+    {
+      "id": "project-04",
+      "title": "Firedata - Adding Web Functionalities for Shiny and OpenCPU",
+      "actions": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/paulsp94/fireData"
+        },
+        {
+          "label": "Wiki",
+          "url": "https://paulspen.de/fireData/"
+        },
+        {
+          "label": "GSOC",
+          "url": "https://summerofcode.withgoogle.com/archive/2018/projects/5750197846016000/"
+        },
+        {
+          "label": "R",
+          "url": "https://summerofcode.withgoogle.com/archive/2018/organizations/6343413561556992/"
+        },
+        {
+          "label": "Press",
+          "url": "https://www.radboudumc.nl/en/news/2018/prestigious-google-soc-grants-for-robin-kohze-and-samuel-schmidt"
+        }
+      ],
+      "source_url": "http://glycosearch.com/ajax-lightbox-gallery-projects/project4.html",
+      "pdf_url": "http://glycosearch.com/projects_pdfs/4/Firedata-Adding Web Functionalities for Shiny and OpenCPU.pdf"
+    }
+  ],
+  "profile_links": [
+    {
+      "label": "CV",
+      "url": "http://glycosearch.com/assets/CV.pdf"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:samuel@glycosearch.com"
+    },
+    {
+      "label": "Vaionex",
+      "url": "http://vaionex.com"
+    },
+    {
+      "label": "Publons",
+      "url": "https://publons.com/researcher/1750018/dr-samuel-schmidt/"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/samuel-schmidt/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/ciroyo"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/glycosylation"
+    },
+    {
+      "label": "Reddit",
+      "url": "https://www.reddit.com/user/Glycomics"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCZqqeWlCJnn1w35Ndttlu4Q"
+    },
+    {
+      "label": "Twetch",
+      "url": "https://twetch.app/u/14002"
+    },
+    {
+      "label": "Phoenix Challenge",
+      "url": "https://phoenix-challenge.com/dashboard"
+    },
+    {
+      "label": "Scitivia",
+      "url": "https://www.scitivia.com"
+    },
+    {
+      "label": "Cornell",
+      "url": "http://www.kicnano.cornell.edu/fellows/"
+    },
+    {
+      "label": "Frapbot About link",
+      "url": "http://frapbot.kohze.com/index.html"
+    },
+    {
+      "label": "Block codes",
+      "url": "https://r-codes.com/"
+    },
+    {
+      "label": "Respora",
+      "url": "https://www.respora.com"
+    }
+  ],
+  "support_chat": {
+    "provider": "tawk.to",
+    "embed_url": "https://embed.tawk.to/5d9c23dedb28311764d7c863/default",
+    "widget_observed": true,
+    "message_sent": false,
+    "delivery_tested": false
+  },
+  "resources": [
+    {
+      "label": "Glycan nomenclature reference",
+      "url": "http://www.functionalglycomics.org/static/consortium/Nomenclature.shtml",
+      "observed": true
+    },
+    {
+      "label": "SPAAC video reference",
+      "url": "https://youtu.be/62UcawMOqnc",
+      "observed": true
+    }
+  ],
+  "database_links_status": "Zusätzliche spezifische Datenbank-URLs in dieser Sichtprüfung nicht belegt; Erhalt aller bestehenden Ziele bleibt Anforderung. Nicht durch vermutete Datenbanken ersetzen.",
+  "media_saved": [
+    {
+      "url": "http://glycosearch.com/Nestin_invasion.jpg",
+      "local_path": "raw/quellen/website-live-chrome-2026-11-24/Nestin_invasion.jpg",
+      "bytes": 611053,
+      "sha256": "82d6a461b727271fd19624115405408d2805502d8dffbd778c554b9cacb30ee1",
+      "status": "Datei aus der geöffneten Website erfolgreich gesichert"
+    },
+    {
+      "url": "http://glycosearch.com/assets/movies/video_white.mp4",
+      "local_path": "raw/quellen/website-live-chrome-2026-11-24/video_white.mp4",
+      "bytes": 1030530,
+      "sha256": "ddbd92a11d65d06d4207bfd720d1a1dfb0bcd7756879a4d751c4233407840154",
+      "status": "Datei aus der geöffneten Website erfolgreich gesichert"
+    }
+  ],
+  "media_inventory_complete": false,
+  "download_test_status": "Die 18 PDF-Ziele wurden erfasst. Kein vollständiger erfolgreicher PDF-Downloadtest; ein zusätzlicher Downloadversuch endete mit einem Werkzeug-Timeout ohne Erfolgsnachweis.",
+  "external_links_tested": false
+}

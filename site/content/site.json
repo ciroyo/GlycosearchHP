@@ -1,0 +1,674 @@
+{
+ "site": {
+  "name": "Glycosearch",
+  "tagline": "State-of-the-art glycoscience",
+  "description": "Glycosearch explores glycoscience research: the cell-surface glycocalyx, cell-penetrating peptides, bioorthogonal labeling and data science. Publications with PDFs, research tools and an interactive learning playground.",
+  "origin": "https://www.glycosearch.com",
+  "contentUpdated": "2026",
+  "email": "samuel@vaionex.com",
+  "supportLink": {
+   "url": "https://buymeacoffee.com/ciroyo",
+   "label": "Support my work on Buy Me a Coffee"
+  }
+ },
+ "support": {
+  "provider": "tawk.to",
+  "embedUrl": "https://embed.tawk.to/5d9c23dedb28311764d7c863/default",
+  "load": "idle"
+ },
+ "ask": {
+  "endpoint": "/api/ask",
+  "suggestions": [
+   "Which paper describes the GFP complementation assay?",
+   "Find the short hydrophobic cell-penetrating peptides paper and its web app.",
+   "Where can I find the Frapbot GitHub repository?",
+   "Show me the Frapbot paper, its app and the ETH Zurich resource.",
+   "Show the Datascience papers and their repositories."
+  ]
+ },
+ "home": {
+  "kicker": "Glycoscience · Peptide delivery · Data science",
+  "lead": "Glycosearch explores glycoscience research, from the cell-surface glycocalyx and cell-penetrating peptides to bioorthogonal labeling and data science. Discover publications, research tools and an interactive learning playground.",
+  "intro": "How glycans are drawn and written, what glycome and glycomics mean, and how sugars are labelled in living cells.",
+  "figure": {
+   "src": "Nestin_invasion.jpg",
+   "file": "Nestin_invasion.jpg",
+   "alt": "Multicolour fluorescence microscopy image with green, orange, red and blue structures",
+   "caption": "In vivo multiphoton microscopy of tumor cell invasion"
+  },
+  "video": {
+   "id": "3NX8KXaOdgk",
+   "title": "The History of Glycoscience",
+   "caption": "Video: The History of Glycoscience"
+  }
+ },
+ "themes": [
+  {
+   "id": "glycocalyx",
+   "title": "Glycocalyx and glycosaminoglycans in cellular uptake",
+   "text": "Cells are covered by a layer of negatively charged oligo- and polysaccharides. This work asks how heparan sulfate and other glycosaminoglycans take part in the uptake of cell-penetrating peptides and drug delivery vectors — and where binding does not translate into uptake.",
+   "items": [
+    "paper-06",
+    "paper-07",
+    "paper-08",
+    "paper-09",
+    "paper-10"
+   ]
+  },
+  {
+   "id": "delivery",
+   "title": "Peptide uptake and cytosolic delivery",
+   "text": "Designing cell-penetrating peptides and measuring where they end up: short hydrophobic peptides identified by rational design, the cell uptake and membrane binding of lactam-stapled peptides, and a GFP complementation assay that detects cytosolic import.",
+   "items": [
+    "paper-04",
+    "paper-05",
+    "paper-13"
+   ]
+  },
+  {
+   "id": "bioorthogonal",
+   "title": "Bioorthogonal labeling with BCN (SPAAC)",
+   "text": "Bicyclo[6.1.0]nonyne probes for copper-free, strain-promoted alkyne–azide cycloaddition, applied to the labeling and three-dimensional imaging of living cells.",
+   "items": [
+    "paper-01",
+    "paper-14"
+   ]
+  },
+  {
+   "id": "tumour",
+   "title": "Cell migration and tumour glycobiology",
+   "text": "Adhesion mechanisms in interstitial cell migration, the glycocalyx as an integrin-independent adhesion system, and the role of highly sulfated chondroitin sulfate in ovarian carcinoma.",
+   "items": [
+    "paper-02",
+    "paper-15",
+    "paper-11"
+   ]
+  },
+  {
+   "id": "glycosylation-disorders",
+   "title": "Glycosylation disorders",
+   "text": "A clinical and biochemical study of deficient CMP-sialic acid transport.",
+   "items": [
+    "paper-03"
+   ]
+  },
+  {
+   "id": "biomaterials",
+   "title": "Biomaterials and biolubricants",
+   "text": "How the surface stress of biomedical silicones acts as a stimulant of cellular response, and how recombinant lubricin analogs can be manufactured as biolubricants.",
+   "items": [
+    "paper-16",
+    "paper-17"
+   ]
+  },
+  {
+   "id": "datascience",
+   "title": "Data science for functional genomics",
+   "text": "Retrospective re-analyses of published data: how guide selection carries over between noncanonical ORF screens, and when microprotein sequence scores transfer between assays.",
+   "items": [
+    "paper-18",
+    "paper-19"
+   ]
+  },
+  {
+   "id": "software",
+   "title": "Open research software",
+   "text": "Web applications and R packages that accompany the research: Frapbot for FRAP data, Peptify, and four Google Summer of Code projects.",
+   "items": [
+    "paper-12",
+    "project-01",
+    "project-02",
+    "project-03",
+    "project-04"
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Glycome",
+   "text": "The glycome is the entire complement of sugars, whether free or present in more complex molecules, of an organism.",
+   "key": "glycome"
+  },
+  {
+   "term": "Glycomics",
+   "text": "Glycomics is the study of the role of carbohydrates & carbohydrate-containing biomolecules in biological systems.",
+   "key": "glycomics"
+  },
+  {
+   "term": "Strain-Promoted Alkyne Azide Cycloaddition (SPAAC)",
+   "text": "Copper-free bioorthogonal cycloaddition of a cyclooctyne with an organic azide, leading to the formation of a stable 1,2,3-triazole. Among other applications, SPAAC is used for the detection of biomolecules, e.g. sialic acids.",
+   "key": "spaac"
+  }
+ ],
+ "nomenclatureText": {
+  "symbol": "The symbol nomenclature is based on criteria defined by editors of the textbook 'Essentials of Glycobiology' and have to be convenient for the annotation of mass spectra.",
+  "text": "The text nomenclature comprises the anomeric carbon next to the correct abbreviation of the corresponding glycan. Including the anomeric carbon is important, and is likely to become increasingly more so in the future as more complicated structures are discovered. The presence of parentheses (which then necessitates the use of brackets to indicate branching structures) is unnecessarily cumbersome, particularly when representing the structure in 2D form.",
+  "combined": "Examples of symbol nomenclature used to illustrate N- and O-linked glycans written in the 2D version of the text nomenclature. Note that symbol structures will be used to annotate data where linkages have not been defined (e.g MALDI profiling), and if linkages between monosaccharides are known, they can be added above or to the side of the line connecting the symbols if desired (e.g. alpha6 or beta4)."
+ },
+ "resources": [
+  {
+   "id": "resource-nomenclature",
+   "group": "Glycan nomenclature",
+   "title": "Symbol and text nomenclature for glycan structures (Consortium for Functional Glycomics)",
+   "description": "Reference for the glycan symbol and text nomenclature.",
+   "url": "https://web.archive.org/web/20200214171222/http://www.functionalglycomics.org:80/static/consortium/Nomenclature.shtml",
+   "keywords": "glycan nomenclature symbol text monosaccharide CFG functional glycomics essentials of glycobiology"
+  },
+  {
+   "id": "resource-spaac-video",
+   "group": "Bioorthogonal chemistry",
+   "title": "SPAAC reference video",
+   "description": "Reference video for the SPAAC section.",
+   "url": "https://www.youtube.com/watch?v=62UcawMOqnc",
+   "keywords": "spaac strain-promoted alkyne azide cycloaddition video intrinsic bond orbital"
+  },
+  {
+   "id": "resource-eth-frap",
+   "group": "Microscopy",
+   "title": "FRAP and FLIP knowledge resource (ScopeM, ETH Zurich)",
+   "description": "Microscopy knowledge resource linked from the Frapbot paper.",
+   "url": "https://scopem.ethz.ch/education/knowledge-resources/FRAPandFLIP.html?fbclid=IwAR2KoUDXdmYyRwZrXWjYo9T444FMmnRYf5-ecpolg94fy49-9UXwxfyBfpc",
+   "related": "paper-12",
+   "keywords": "frap flip eth zurich scopem fluorescence recovery after photobleaching microscopy"
+  }
+ ],
+ "profile": {
+  "name": "Dr. Samuel Schmidt",
+  "degrees": "MSc, Ph.D.",
+  "portrait": "assets/images/samuel.png",
+  "career": [
+   "I am a researcher in biochemistry and molecular biology and the Co-Founder, CFO, Product Lead and Data Scientist of Vaionex Corporation, an AI and blockchain development and data science company.",
+   "At Vaionex, I oversee the financial, legal and operational side of the company and contribute to product strategy, product development, and AI and data science solutions, including the contract platform Agreements.ai. In my recent data science work with Robin Gounder, I re-analyze published functional genomics data on noncanonical open reading frames and microproteins.",
+   "My scientific background is in glycobiology. I completed my experimental Ph.D. thesis in the group of Prof. Dr. Peter Friedl at the Department of Cell Biology, Radboud Institute for Molecular Life Sciences (RIMLS) in Nijmegen, The Netherlands. The thesis examined the impact of cell-surface glycosylation on tumor cell migration and invasion in vitro and in vivo, using multiphoton, confocal and scanning electron microscopy to visualize the complex nanotopography between cell membranes and collagen fibers.",
+   "In 2013, I was awarded the Roche Postdoc Fellowship (RPF) by F. Hoffmann-La Roche Ltd, Basel, Switzerland. In the group of Prof. Dr. Roland Brock at the Department of Biochemistry, RIMLS, I developed a GFP complementation assay to study the transport of functional cell-penetrating peptides (CPPs) from the cell surface to the cytosol, with a focus on endosomal release. I also studied the influence of cell-surface glycosylation on the uptake of CPPs.",
+   "In February 2017, I was awarded the KIC Postdoc Fellowship by the Kavli Institute at Cornell for Nanoscale Science, Cornell University, USA, where I was a KIC PostDoc Fellow from 2018 to 2022."
+  ],
+  "education": [
+   {
+    "degree": "Ph.D. (Cancer Medicine)",
+    "place": "University of Nijmegen"
+   },
+   {
+    "degree": "MSc (Medical Biochemistry, Molecular Biology)",
+    "place": "Leipzig University"
+   }
+  ],
+  "languages": [
+   "German (Native)",
+   "English (Professional)",
+   "Swedish (Basic)"
+  ],
+  "interests": [
+   "Science",
+   "Music",
+   "Coding",
+   "Entrepreneurship"
+  ],
+  "experience": [
+   {
+    "role": "Co-Founder, CFO, Product Lead and Data Scientist",
+    "when": "2020 – present",
+    "where": "Vaionex Corporation, Newark, Delaware, USA",
+    "text": "Vaionex is an AI and blockchain development and data science company. I oversee the financial, legal and operational side of the company and contribute to product strategy, product development, and AI and data science solutions. As Product Lead of Agreements.ai, I direct the product's development and strategic direction.",
+    "products": [
+     {
+      "name": "Agreements.ai",
+      "text": "contract drafting, review and risk analysis",
+      "url": "https://agreements.ai"
+     },
+     {
+      "name": "PitchAI",
+      "text": "pitch deck analysis and feedback",
+      "url": "https://pitchai.com"
+     },
+     {
+      "name": "Admission.ai",
+      "text": "guidance for school applications",
+      "url": "https://admission.ai"
+     },
+     {
+      "name": "Taxation.ai",
+      "text": "AI-assisted tax and document workflows",
+      "url": "https://taxation.ai"
+     }
+    ],
+    "url": "https://www.vaionex.com/",
+    "org": "Vaionex Corporation",
+    "logo": "vaionex"
+   },
+   {
+    "role": "KIC PostDoc Fellow",
+    "when": "2018 – 2022",
+    "where": "Kavli Institute at Cornell for Nanoscale Science and Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY, USA",
+    "text": "As a Kavli Fellow, I investigated how specific biophysical and biochemical properties of the cell-surface glycan layer (the glycocalyx) enable cells to interact with nanometer-scale structures in biological tissues and biomimetic culture systems.",
+    "logo": "cornell"
+   },
+   {
+    "role": "Roche PostDoc Fellow",
+    "when": "2013 – 2018",
+    "where": "Biochemistry of Integrated Systems, RIMLS, Nijmegen, The Netherlands",
+    "text": "In this project, I developed a GFP complementation assay to study the transport of functional cell-penetrating peptides (CPPs) from the cell surface to the cytosol, with a focus on endosomal release. I also studied the influence of cell-surface glycosylation on the uptake of CPPs. Alongside advanced biochemical approaches, fluorescence correlation spectroscopy (FCS) and fluorescence recovery after photobleaching (FRAP), I used confocal microscopy to analyze and visualize the contact regions between CPPs (especially cationic CPPs) and negatively charged cell-surface glycan moieties. Furthermore, I studied the impact of CPP binding on the lateral mobility of cell-surface glycolipids and glycoproteins using atomic force microscopy and spectroscopy (AFM/AFS) and the FRAP technique, which I have optimized for glycan analysis over the past years.",
+    "logo": "radboud"
+   },
+   {
+    "role": "Ph.D. candidate",
+    "when": "2008 – 2012",
+    "where": "Cellbiology and Celldynamics, RIMLS, Nijmegen, The Netherlands",
+    "text": "During my Ph.D. project, I was able to learn advanced imaging procedures, including confocal microscopy, to visualize cell-matrix interactions and dynamic cell patterning, for example during tumor migration and invasion. My responsibilities included developing a cell culture technique to analyze the influence of glycocalyx components in mediating cell migration and invasion in a 3D environment in vitro and in vivo. As a result, I have a strong background in cell and molecular biology and in microscopy, including time-lapse microscopy, confocal microscopy, and atomic force microscopy and spectroscopy (AFM/AFS), as well as in glycobiology, and I have experience in glycochemistry.",
+    "logo": "radboud"
+   }
+  ],
+  "activities": [
+   {
+    "title": "Cambridge University Phoenix Challenge",
+    "text": "An international, virtual coding competition for protocols and applications that make use of the scalable Bitcoin SV blockchain. Member of the judging panel.",
+    "url": "https://phoenix-challenge.com/dashboard"
+   },
+   {
+    "title": "Scitivia",
+    "text": "Development of a platform for scientific reviewing & blogging.",
+    "url": "https://www.scitivia.com"
+   },
+   {
+    "title": "Nanoscale Glycoscience",
+    "text": "Uncovering the molecular details of how the cell surface glycocalyx adheres to nanometer-scale structure, e.g. collagen fibers in the extracellular matrix.",
+    "url": "https://www.kicnano.cornell.edu/",
+    "linkLabel": "Open the Kavli Institute at Cornell (KIC) website"
+   },
+   {
+    "title": "Molecular Dynamics Simulation",
+    "text": "A conceptional structural understanding of the interaction of arginine-rich cell-penetrating peptides with glycosaminoglycans."
+   },
+   {
+    "title": "Drug Delivery",
+    "text": "Endocytic uptake of L- but not D-amino acid cationic cell-penetrating peptides induces a softening of the actin cytoskeleton."
+   },
+   {
+    "title": "Cancer Glycomedicine",
+    "text": "Impact of Cell Surface Glycosylation on Tumor Cell Migration: The glycocalyx as multivalent and universal adhesion scaffold."
+   },
+   {
+    "title": "Frapbot",
+    "text": "A new open source Fluorescence Recovery After Photobleaching (FRAP) application.",
+    "url": "http://frapbot.kohze.com/index.html"
+   },
+   {
+    "title": "Block codes",
+    "text": "Marketplace for sharing blockchain tutorials and novel approaches and algorithms to the coding community around the world.",
+    "url": "https://r-codes.com/"
+   },
+   {
+    "title": "Google Summer of Code",
+    "text": "Integration of Firedata into statistical web applications. Mentor of this project.",
+    "url": "https://github.com/Kohze/fireData"
+   },
+   {
+    "title": "Google Summer of Code – Firedata for Shiny and OpenCPU",
+    "text": "R projects for statistical computing. Firedata - Implementing web functionalities for Shiny and OpenCPU. Mentor of this project.",
+    "url": "https://summerofcode.withgoogle.com/archive/2018/projects/5750197846016000/"
+   },
+   {
+    "title": "Google Summer of Code – Firedata and Cloud Firestore",
+    "text": "R projects for statistical computing. Firedata - Enabling easy cloud stats through Cloud Firestore. Mentor of this project.",
+    "url": "https://summerofcode.withgoogle.com/archive/2018/projects/6088046147534848/"
+   },
+   {
+    "title": "Google Summer of Code – Discovr",
+    "text": "Discovr. Streamlining statistical data analysis. Mentor of this project.",
+    "url": "https://github.com/Kohze/Discovr"
+   },
+   {
+    "title": "Respora",
+    "text": "A social platform to increase the communication between Scientists within the Institute.",
+    "url": "https://www.respora.com"
+   }
+  ],
+  "links": [
+   {
+    "label": "Publons",
+    "url": "https://publons.com/researcher/1750018/dr-samuel-schmidt/"
+   },
+   {
+    "label": "ORCID",
+    "url": "https://orcid.org/0000-0001-9001-7970"
+   },
+   {
+    "label": "ResearchGate",
+    "url": "https://www.researchgate.net/profile/Samuel-Schmidt-4"
+   },
+   {
+    "label": "SSRN",
+    "url": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13836088"
+   },
+   {
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/samuel-schmidt/"
+   },
+   {
+    "label": "GitHub",
+    "url": "https://github.com/ciroyo"
+   },
+   {
+    "label": "Bluesky",
+    "url": "https://bsky.app/profile/glycomics.bsky.social"
+   },
+   {
+    "label": "X",
+    "url": "https://x.com/glycosylation"
+   },
+   {
+    "label": "Reddit",
+    "url": "https://www.reddit.com/user/Glycomics"
+   },
+   {
+    "label": "YouTube",
+    "url": "https://www.youtube.com/channel/UCZqqeWlCJnn1w35Ndttlu4Q"
+   },
+   {
+    "label": "Twetch",
+    "url": "https://twetch.app/u/14002"
+   },
+   {
+    "label": "Linktree",
+    "url": "https://linktr.ee/glycomics"
+   }
+  ],
+  "headline": "MSc, Ph.D. · Researcher · Co-Founder, CFO, Product Lead and Data Scientist at Vaionex Corporation",
+  "logos": {
+   "vaionex": {
+    "light": "vaionex-symbol.png",
+    "dark": "vaionex-symbol.png",
+    "w": 640,
+    "h": 471,
+    "show": 46,
+    "alt": "Vaionex"
+   },
+   "cornell": {
+    "light": "cornell-seal-red.png",
+    "dark": "cornell-seal-white.png",
+    "w": 548,
+    "h": 543,
+    "show": 58,
+    "alt": "Cornell University"
+   },
+   "radboud": {
+    "light": "radboud-icon-red.svg",
+    "dark": "radboud-icon-white.svg",
+    "w": 312,
+    "h": 400,
+    "show": 64,
+    "alt": "Radboud University"
+   }
+  }
+ },
+ "papers": {
+  "paper-01": {
+   "slug": "bicyclononynes-bioorthogonal-labeling-3d-imaging",
+   "shortTitle": "Bioorthogonal labeling using BCN",
+   "keywords": "BCN bicyclononyne SPAAC cycloalkyne azide labeling imaging melanoma glycans"
+  },
+  "paper-02": {
+   "slug": "interstitial-cell-migration-adhesion-mechanisms",
+   "keywords": "cell migration integrin adhesion review extracellular matrix"
+  },
+  "paper-03": {
+   "slug": "cmp-sialic-acid-transport-deficiency",
+   "keywords": "CMP-sialic acid transporter sialic acid glycosylation"
+  },
+  "paper-04": {
+   "slug": "short-hydrophobic-cell-penetrating-peptides",
+   "app": "Peptify",
+   "keywords": "CPP cell-penetrating peptides hydrophobic rational design peptify cytosolic delivery web app"
+  },
+  "paper-05": {
+   "slug": "gfp-complementation-assay-cytosolic-delivery",
+   "keywords": "GFP complementation assay GFP1-10 cytosolic delivery CPP"
+  },
+  "paper-06": {
+   "slug": "glycocalyx-cpp-uptake-methods",
+   "keywords": "glycocalyx methods protocol CPP uptake book chapter Methods in Molecular Biology Langel",
+   "addCategories": [
+    "chapter"
+   ]
+  },
+  "paper-07": {
+   "slug": "peptide-heparan-sulfate-stoichiometry",
+   "keywords": "heparan sulfate HS stoichiometry binding CPP uptake"
+  },
+  "paper-08": {
+   "slug": "glycosaminoglycans-cpp-uptake",
+   "keywords": "glycosaminoglycans GAG CPP uptake"
+  },
+  "paper-09": {
+   "slug": "heparan-sulfate-proteoglycan-clustering",
+   "keywords": "heparan sulfate proteoglycans HSPG clustering amphipathic CPP uptake"
+  },
+  "paper-10": {
+   "slug": "glycosaminoglycans-drug-delivery-vectors",
+   "keywords": "glycosaminoglycans GAG drug delivery vectors review nanomedicine"
+  },
+  "paper-11": {
+   "slug": "ovarian-carcinoma-chondroitin-sulfate",
+   "keywords": "ovarian cancer carcinoma chondroitin sulfate 4,6-disulfated metastasis adhesion"
+  },
+  "paper-12": {
+   "slug": "frapbot",
+   "app": "Frapbot",
+   "keywords": "Frapbot FRAP fluorescence recovery after photobleaching R shiny web application open source software"
+  },
+  "paper-13": {
+   "slug": "lactam-stapled-cell-penetrating-peptides",
+   "keywords": "lactam stapled peptides CPP helix membrane binding protein origami",
+   "applied": {
+    "tool": "tool-protein-origami",
+    "legacyLabels": [
+     "app",
+     "github",
+     "get manual"
+    ]
+   }
+  },
+  "paper-14": {
+   "slug": "bicyclononynes-ring-strained-alkynes",
+   "keywords": "BCN bicyclononyne ring-strained alkynes SPAAC bioorthogonal labeling cycloaddition"
+  },
+  "paper-15": {
+   "slug": "glycocalyx-mediated-cell-adhesion-and-migration",
+   "shortTitle": "Glycocalyx-mediated cell adhesion and migration",
+   "keywords": "glycocalyx cell adhesion migration integrin extracellular matrix ECM amoeboid bleb nanogrips mechano-coupling collagen melanoma bioRxiv preprint"
+  },
+  "paper-16": {
+   "slug": "surface-stress-of-biomedical-silicones",
+   "shortTitle": "Surface stress of biomedical silicones",
+   "keywords": "surface stress silicone silicones breast implants rigidity sensing foreign body response granuloma biomaterials Science Advances"
+  },
+  "paper-17": {
+   "slug": "recombinant-manufacturing-of-multispecies-biolubricants",
+   "shortTitle": "Recombinant manufacturing of multispecies biolubricants",
+   "keywords": "lubricin mucin biomanufacturing lubrication biolubricant recombinant O-glycosylation bioprocess chromatography osteoarthritis bioRxiv preprint"
+  },
+  "paper-18": {
+   "slug": "guide-selection-noncanonical-orf-screens",
+   "shortTitle": "Guide selection across noncanonical ORF screens",
+   "keywords": "datascience data science functional genomics microproteins CRISPR replication guide RNA nORF noncanonical open reading frames fitness screens SSRN preprint norf-guide-selection"
+  },
+  "paper-19": {
+   "slug": "microprotein-sequence-score-transfer",
+   "shortTitle": "Transfer of microprotein sequence scores",
+   "keywords": "datascience data science microproteins noncanonical open reading frames protein stability sequence predictors reporter assays cross-assay transfer reproducibility SSRN preprint microprotein-score-transfer"
+  }
+ },
+ "projects": {
+  "project-01": {
+   "slug": "firedata-firebase",
+   "keywords": "fireData R package Google Firebase database GSoC Google Summer of Code 2017"
+  },
+  "project-02": {
+   "slug": "discovr",
+   "keywords": "Discovr R statistics statistical data analysis GSoC Google Summer of Code 2016"
+  },
+  "project-03": {
+   "slug": "firedata-cloud-firestore",
+   "keywords": "fireData Cloud Firestore R package GSoC Google Summer of Code 2018"
+  },
+  "project-04": {
+   "slug": "firedata-shiny-opencpu",
+   "keywords": "fireData Shiny OpenCPU web R package GSoC Google Summer of Code 2018"
+  }
+ },
+ "labels": {
+  "role": {
+   "first": "First author",
+   "last": "Last author"
+  },
+  "type": {
+   "primary": "Primary publication",
+   "reviews": "Review",
+   "chapter": "Book chapter",
+   "preprint": "Preprint",
+   "patent": "Patent"
+  },
+  "topic": {
+   "targeting": "Targeting",
+   "cancer": "Cancer",
+   "development": "Development",
+   "detection": "Detection",
+   "protocols": "Protocols",
+   "programming": "Programming",
+   "datascience": "Datascience"
+  },
+  "project": {
+   "mentoring": "Mentoring",
+   "programming": "Programming",
+   "google": "Google"
+  }
+ },
+ "learning": {
+  "playLead": "Pick a part of the text or a symbol: the same residue lights up in every view.",
+  "figures": {
+   "text": {
+    "file": "learning/Text nomenclature.png",
+    "alt": "Modified IUPAC condensed text nomenclature: the same glycan in linear and in 2D notation"
+   },
+   "combo": {
+    "file": "learning/Symbol nomenclature written in 2D version of text nomenclature.png",
+    "alt": "An N-linked and an O-linked glycan, each written in 2D text nomenclature and drawn twice with symbols"
+   },
+   "glycome": {
+    "file": "learning/Glycome.jpg",
+    "alt": "Glycan profile: peaks GP1 to GP24, each annotated with N-glycan structures in symbol nomenclature; legend for N-acetylglucosamine, core fucose, mannose, galactose and N-acetylneuraminic acid"
+   },
+   "glycomics": {
+    "file": "learning/Glycomics.jpg",
+    "alt": "Illustration of two cell membranes: mucin-type O-glycans, N-glycans and glycosphingolipid glycans on one cell, glycan-binding proteins on the other"
+   }
+  },
+  "animation": {
+   "label": "SPAAC animation from the Glycosearch archive",
+   "caption": "Animation from the Glycosearch archive"
+  },
+  "spaac": {
+   "paper": "paper-01",
+   "videoReference": {
+    "id": "62UcawMOqnc",
+    "url": "https://youtu.be/62UcawMOqnc",
+    "label": "Video reference on YouTube: Super Shiny Version of a Strain-Promoted Alkyne Azide Cycloaddition (Click Chemist)",
+    "checked": "2026-11-25: title, channel, length 7 s and description read from YouTube"
+   },
+   "methodLabel": "Method, from the description of the video reference",
+   "method": "IRC: M06-2X/6-311+g(d,p), G09. IBOs: exponent 2, calculated at PBE/def2-TZVP and visualized in IboView. The two intrinsic bond orbitals shown form the product’s new σ bonds."
+  },
+  "inVivo": {
+   "person": "Dr. Bettina Weigelin (Ph.D.)",
+   "links": [
+    {
+     "type": "institution",
+     "url": "https://www.isct.uni-tuebingen.de/wsic/research/research-groups/imaging-sciences/multiscale-immunoimaging",
+     "label": "Bettina Weigelin — research group"
+    },
+    {
+     "type": "linkedin",
+     "url": "https://www.linkedin.com/in/bettina-weigelin/",
+     "label": "Bettina Weigelin — LinkedIn"
+    }
+   ],
+   "note": "Owner request of 25 Nov 2026. The name and links belong to this learning section; they state no authorship of the image."
+  }
+ },
+ "tools": [
+  {
+   "id": "tool-protein-origami",
+   "name": "Protein ORIGAMI",
+   "by": "Reißer et al.",
+   "credit": "Protein ORIGAMI was developed by Sabine Reißer and colleagues and published separately. It was used in this study.",
+   "reference": {
+    "authors": "Reißer, S.; Prock, S.; Heinzmann, H.; Ulrich, A. S.",
+    "title": "Protein ORIGAMI: A program for the creation of 3D paper models of folded peptides",
+    "journal": "Biochemistry and Molecular Biology Education",
+    "year": 2018,
+    "volume": "46(4)",
+    "pages": "403–409",
+    "doi": "10.1002/bmb.21132"
+   },
+   "keywords": "protein origami 3D paper models folded peptides Reißer Reisser Ulrich KIT web app manual"
+  }
+ ],
+ "patents": [
+  {
+   "id": "patent-01",
+   "n": 1,
+   "slug": "ep3360891b1-cell-penetrating-peptides-of-human-origin",
+   "number": "EP 3 360 891 B1",
+   "short": "EP3360891B1",
+   "title": "Cell penetrating peptides of human origin",
+   "inventors": [
+    "Parvesh Wadhwani",
+    "Philipp Mühlhäuser",
+    "Johannes Reichert",
+    "Lucie Caillon",
+    "Anne S. Ulrich",
+    "Jan Maisch",
+    "Peter Nick",
+    "Cornelia Lee-Thedieck",
+    "Saskia Kraus",
+    "Roland Brock",
+    "Samuel Schmidt",
+    "Aastha Jain"
+   ],
+   "owner": "Samuel Schmidt",
+   "proprietor": "Karlsruher Institut für Technologie",
+   "application": "18156770.2",
+   "priority": "14 February 2017 (EP 17156097)",
+   "filed": "14 February 2018",
+   "granted": {
+    "iso": "2022-03-30",
+    "text": "30 March 2022 (Bulletin 2022/13)"
+   },
+   "document": "European patent specification, 66 pages",
+   "description": "The patent describes dermcidin-derived cell-penetrating peptides of human origin for transporting cargo molecules into cells.",
+   "note": "Bibliographic data as printed on the patent specification. This page makes no statement about the current legal status or the territorial scope of the patent.",
+   "keywords": "patent EP3360891B1 EP3360891 EP 3360891 B1 european patent espacenet inventor co-inventor dermcidin cell-penetrating peptides CPP human origin cargo delivery Karlsruhe KIT",
+   "related": [
+    "paper-13",
+    "paper-04",
+    "paper-09"
+   ],
+   "links": [
+    {
+     "type": "patent",
+     "label": "Espacenet",
+     "row": "Espacenet record",
+     "url": "https://worldwide.espacenet.com/patent/search/family/058056980/publication/EP3360891B1?q=EP3360891B1",
+     "aria": "Open patent EP3360891B1 on Espacenet"
+    },
+    {
+     "type": "pdf",
+     "label": "Patent specification (PDF)",
+     "row": "Patent specification (PDF)",
+     "url": "https://patentimages.storage.googleapis.com/f2/42/a6/014998e9fedb1a/EP3360891B1.pdf",
+     "aria": "Open the patent specification EP3360891B1 (PDF)"
+    }
+   ]
+  }
+ ]
+}
