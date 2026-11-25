@@ -1,0 +1,524 @@
+{
+ "p19": [
+  {
+   "num": "1",
+   "page": 4,
+   "clip": [
+    64.9,
+    134.6,
+    530.4,
+    411.1
+   ],
+   "px": [
+    1310,
+    714
+   ],
+   "file": "p19-fig1.png",
+   "caption": "Fig 1. Reporter ranking and within-study transfer. Points show Spearman correlation; bars show 95% operational-group bootstrap intervals conditional on ﬁtted predictions. Raw annotation and PAP scores are ranking comparators, not reporter probabilities. A/T/O are group-held-out in panel a and trained on development WTs for transfer in panel b. Coverage exceptions are labelled. The released Guo comparator is training-sequence/group-disjoint on these additional cargos, but not demonstrably prospectively blinded."
+  },
+  {
+   "num": "2",
+   "page": 5,
+   "clip": [
+    64.9,
+    346.3,
+    530.4,
+    628.4
+   ],
+   "px": [
+    1179,
+    736
+   ],
+   "file": "p19-fig2.png",
+   "caption": "Fig 2. Same-peptide agreement and model transfer. a: correlations between context means and within- context biological replicates on the common 1,044-peptide population; missing replicate pairs are omitted as speciﬁed in the text. b: all six directed transfers of source-trained A and T versus target-trained T on identical held-out groups. Bars are descriptive 95% operational-group bootstrap intervals conditional on saved predictions. G: original GFP–MP; M: MP–mCherry; U: mutagenesis-library GFP–MP. This is an exploratory same-study comparison."
+  },
+  {
+   "num": "3",
+   "page": 7,
+   "clip": [
+    64.9,
+    64.9,
+    530.4,
+    318.7
+   ],
+   "px": [
+    1336,
+    671
+   ],
+   "file": "p19-fig3.png",
+   "caption": "Fig 3. Source context and decision metric change the transfer comparison. a: independent-target Spearman correlation for both models trained on the source data. Intervals for A/T are conditional 95% gene-bootstrap intervals; other diagnostics are point estimates. The dashed PAP reference was trained in the target study. N4/C4/I4 each add 80 positional columns to A; T without PAP removes its pretrained components. b: grouped dots show the mean measured target score among the 1,415 peptides selected by each model’s highest-scoring 10%. Colors and markers identify the training reporter; labels give the means. Each model selects its own subset. Policy contrasts and uncertainty are reported in the text and S9 Data. The source of the 30-mer assay is independent; the test sequences are canonical tiles rather than native nORFs."
+  },
+  {
+   "num": "4",
+   "page": 8,
+   "clip": [
+    64.9,
+    64.9,
+    530.4,
+    375.4
+   ],
+   "px": [
+    1327,
+    817
+   ],
+   "file": "p19-fig4.png",
+   "caption": "Fig 4. Published baseline challenge across two ﬁxed cohorts. (a) Native ranking on 14,143 tiles/383 genes. The dashed separator distinguishes PAP neural models trained in that study from externally trained references. (b) Paired RT-minus-WT ranking on 1,743 independent 58-mer window pairs/1,591 groups after common source/PAP-training exclusions. Diamonds denote Guo-WT-only cali- bration. Full58 is supported variable-length inference beyond the training 30-mer length. Point estimates are shown; all variants, source contexts and conditional paired contrasts are retained in S10 Data."
+  },
+  {
+   "num": "5",
+   "page": 9,
+   "clip": [
+    64.9,
+    134.6,
+    530.4,
+    436.6
+   ],
+   "px": [
+    1270,
+    792
+   ],
+   "file": "p19-fig5.png",
+   "caption": "Fig 5. Overlap with training data and matched sequence inputs change model comparisons. (a) Paired-eﬀect rank correlations for the C23 terminal model and PAP CNN1 using C23, C30 and full58 on three nested populations. The original 1,743-pair cohort excluded source/PAP training exposure, while 1,454 pairs match an endpoint in the separate C23 development screen. Its actual individual 90/10 split is unavailable. (b) C-model-minus-CNN1 contrasts on identical C23 inputs, with 95% conditional group-bootstrap intervals. The matched-input controls are post hoc; all intervals span zero. The 97-pair available-symbol sensitivity is not alias-complete gene independence. Diﬀerent cohorts do not identify an exposure eﬀect, and C23/full58 neural inference extrapolates beyond the training length."
+  }
+ ],
+ "p15": [
+  {
+   "num": "1",
+   "page": 28,
+   "clip": [
+    54.0,
+    34.0,
+    541.0,
+    378.9
+   ],
+   "px": [
+    993,
+    889
+   ],
+   "file": "p15-fig1.png",
+   "caption": "Fig. 1. Conversion to amoeboid migration in mesenchymal tumor cells, fibroblasts and T"
+  },
+  {
+   "num": "2",
+   "page": 29,
+   "clip": [
+    54.0,
+    34.0,
+    541.0,
+    441.1
+   ],
+   "px": [
+    918,
+    1070
+   ],
+   "file": "p15-fig2.png",
+   "caption": "Fig. 2. Enzymatic removal of the glycocalyx. (a, b) Ultrastructure of the glycocalyx. Glycocalyx"
+  },
+  {
+   "num": "3",
+   "page": 30,
+   "clip": [
+    54.0,
+    34.0,
+    541.0,
+    539.7
+   ],
+   "px": [
+    1051,
+    1372
+   ],
+   "file": "p15-fig3.png",
+   "caption": "Fig. 3. Surface-glycan dependent cell migration in vitro and in vivo.  (a-e) Effects of enzymatic"
+  },
+  {
+   "num": "4",
+   "page": 31,
+   "clip": [
+    54.0,
+    34.0,
+    541.0,
+    567.8
+   ],
+   "px": [
+    1234,
+    1450
+   ],
+   "file": "p15-fig4.png",
+   "caption": "Fig. 4. Probing of glycan-binding to collagen fibers and studying the impact of enzymatic"
+  },
+  {
+   "num": "5",
+   "page": 33,
+   "clip": [
+    54.0,
+    34.0,
+    541.0,
+    543.8
+   ],
+   "px": [
+    1182,
+    1377
+   ],
+   "file": "p15-fig5.png",
+   "caption": "Fig. 5. Cell morphology and cellular interactions to collagen fibers of MV3, MEF and Molt-4 cells"
+  },
+  {
+   "num": "6",
+   "page": 35,
+   "clip": [
+    54.0,
+    34.0,
+    541.0,
+    454.0
+   ],
+   "px": [
+    1295,
+    1128
+   ],
+   "file": "p15-fig6.png",
+   "caption": "Fig. 6. Organization of glycan-dependent cell-matrix interactions. Diffraction-limited confocal  microscopy of glycan-dependent interactions with collagen fibers. MV3 β1/β3KD cells were non- treated (a, upper panel w/o digestion, b) or received P/N/G digestion (a, lower panel), embedded in 3D  collagen and fixed after 90 min for detection of β-1,4 galactose residues (Maackia amurensis  agglutinin, MAA), F-actin and collagen fibers (reflection). Images represent the xy and yz projections  from serial z-scans (positions indicated as dotted lines) with relative positions of cross-sectioned fibers  (numbered 1-3) and cell surface represented as cartoons. Arrows, collagen fibers (green) located  colocalized with MAA and F-actin-enriched protrusions (blebs, red). Dashed arrows, collagen fibers  laterally intercalating with the cell surface. 1 representative cell out of 4 cells per condition analyzed in  2 independent experiments. Bars, 10 µm (overview images), 2 µm (ROIs). Mean densitometry curves  with SD of MAA or F-actin (red) and collagen fibril intensity (green) based on 20 curves in cross- sectioned bleb-like protrusions (4 MV3 β1/β3KD cells, 2 independent experiments). (b) Quantification  the imprint depth of collagen fibers into cell blebs. YZ projection of a MAA (red) and F-actin (cyan)  positive membrane bleb. Dashed box, region of interest used for densitometry analysis. White traces  indicate the measuring lines with a constant length of 8 µm and a width of 5 pixels. Bar, 2 µm.  Representative overlay of intensities alongside the measuring lines in a cross-sectioned MV3 β1/β3KD  cell bleb for MAA (red), F-actin (cyan) and collagen I (green) including points of maximal (Max) and  half-maximal (Max1/2) intensities from 2 independent experiments. (c) Median fiber imprint depth,  based on MAA and F-actin signal, as detailed in (b), from 16 cross-sectioned blebs (4 cells/ condition,  2 independent experiments). (c) Black lines, medians. P value, non-paired Mann-Whitney test, 2  tailed. See also Extended Data Fig. 8."
+  },
+  {
+   "num": "7",
+   "page": 36,
+   "clip": [
+    54.0,
+    34.0,
+    541.0,
+    628.1
+   ],
+   "px": [
+    1268,
+    1657
+   ],
+   "file": "p15-fig7.png",
+   "caption": "Fig. 7. Morphology of glycan-dependent cell-matrix interactions. Scanning electron  microscopy of MV3 β1/β3KD cells before and after glycan removal with P/N/G glycosidase  cocktail. (a) Schematic representation of the sample preparation for SEM analysis. (b)  Morphology of MV3 β1/β3KD cell surface interactions with collagen fibrils without (left panel;  zoom 1-5 as representative interactions) or after treatment with P/N/G glycosidases (right  panel; zoom 1-6) in 3D collagen lattices. Deformed contact region between cell membrane  (colored yellow, arrowheads) and collagen fiber (colored red). (b, left panel; zoom 6)  Representative position of contact-free blebs with fully spherical morphology for cells without  P/N/G glycosidase treatment. Bar, 1 µm (b, overviews), 0.5 µm (b, ROIs). (c) Schematic  representation of the imprint formation between a membrane bleb and a collagen fiber for"
+  }
+ ],
+ "p18": [
+  {
+   "num": "1",
+   "page": 9,
+   "clip": [
+    64.9,
+    64.9,
+    530.4,
+    347.0
+   ],
+   "px": [
+    1344,
+    789
+   ],
+   "file": "p18-fig1.png",
+   "caption": "Figure 1: Product correspondence and analytical cohorts. (a) Illustrative coding chains distinguish products with diﬀerent starts. (b) The Prensner 2021 and Deutsch 2026 analytical inventories yield 274 constructed relationships and 127 exact coding-chain/DNA pairs; every exact pair shares at least one raw guide. (c) Separate eligibility gates deﬁne the conditional, reused/fresh and additional-assay cohorts. The 87-product selection cohort is a subset of the 105-product conditional cohort. (d) The third-publication comparison is formed separately. Counts refer to the labelled products or relationships; these branches are not a single attrition sequence."
+  },
+  {
+   "num": "2",
+   "page": 11,
+   "clip": [
+    64.9,
+    64.9,
+    530.4,
+    357.1
+   ],
+   "px": [
+    1336,
+    818
+   ],
+   "file": "p18-fig2.png",
+   "caption": "Figure 2: Persistent within-product guide responses. (a) Each guide response is centred on the mean of eligible shared guides for the same product and cell, separately in each screen. (b) The primary comparison contains 105 products, 471 guides and 1,413 dependent guide-cell pairs. (c) The additional assay from the earlier study contains 16 products, 72 guides and 144 pairs. Both scatterplots use identical axis limits. Colours and marker shapes identify cells; each point is a guide-cell pair. Lines are weighted least-squares ﬁts through the origin. Reported Pearson correlations use equal total product/cell weight; nominal 95% intervals resample dependence groups. The additional assay is not a third independent publication. Neither correlation identiﬁes a molecular mechanism."
+  },
+  {
+   "num": "3",
+   "page": 12,
+   "clip": [
+    64.9,
+    212.3,
+    530.4,
+    491.9
+   ],
+   "px": [
+    1341,
+    748
+   ],
+   "file": "p18-fig3.png",
+   "caption": "Figure 3: Earlier guide selection shifts later depletion estimates. (a) The original rule selects two guides by earlier-screen equal-cell mean LFC and keeps the pair across three later contexts. The reference is the exact expected later score under uniform random two-guide selection. (b) All 87 product-average shifts; vertical placement separates observations without changing their values. The diamond is the mean with its original nominal 95% dependence-cluster interval. Seventy-nine shifts are negative. (c) Post hoc sensitivity excluding each evaluated cell from the older selection score: three cell estimates and their equal- cell mean, with nominal 95% cluster intervals. Guide pairs can diﬀer between evaluations. Resampling retains cells jointly. Negative values indicate greater depletion. Neither rule is established author practice; the sensitivity uses existing contexts and establishes no molecular mechanism or biological generalization."
+  },
+  {
+   "num": "4",
+   "page": 13,
+   "clip": [
+    64.9,
+    346.2,
+    530.4,
+    593.0
+   ],
+   "px": [
+    1341,
+    657
+   ],
+   "file": "p18-fig4.png",
+   "caption": "Figure 4: Product-level reused/fresh uncertainty. The separate paired cohort comprises 88 exact prod- ucts. (a) Reused-minus-fresh Spearman agreement with the older product score. (b) Fresh-minus-reused newer guide LFC. Observed guide counts and the post hoc count-balanced sensitivity retain their original nominal 97.5% target-cluster intervals, with exact rounded values alongside. Circles show observed- count estimates; diamonds show balanced estimates. Guide-selection averaging is included within each target-cluster sample. The count-balanced rank interval crosses zero, supporting neither a general reuse advantage nor equivalence. These endpoints diﬀer from the conditional guide correlation and transferred selection scenario."
+  },
+  {
+   "num": "5",
+   "page": 14,
+   "clip": [
+    64.9,
+    326.7,
+    530.4,
+    578.6
+   ],
+   "px": [
+    1338,
+    659
+   ],
+   "file": "p18-fig5.png",
+   "caption": "Figure 5: Third-publication aggregate product agreement. Exact sequence-and-locus matches provide a third-publication aggregate A375 comparison. The primary cohort contains 196 products in 192 depen- dence groups. Rank correspondence is shown with its nominal 95% dependence-cluster interval; source baselines and product summaries diﬀer. The source mean-LFC distribution is displayed alongside its ﬁxed strong-depletion cutoﬀof −1, which no eligible product reaches. Guide reuse cannot be established from the retrieved data. The result therefore describes aggregate ranking agreement rather than independent- reagent validation or replicated strong individual dependencies."
+  },
+  {
+   "num": "S1",
+   "page": 27,
+   "clip": [
+    64.9,
+    64.9,
+    530.4,
+    306.7
+   ],
+   "px": [
+    1335,
+    646
+   ],
+   "file": "p18-figS1.png",
+   "caption": "Figure S1: Declared conditional-guide sensitivities. Points show the main estimate, ﬁxed-cell estimates and the previously speciﬁed guide-count, splice-distance, guide-rank and GC sensitivities. Only the main estimate displays its nominal 95% dependence-cluster interval; other points are descriptive. All products and ﬁxed cells remain dependent under the stated design. Source: Table S13 and the frozen conditional analysis."
+  },
+  {
+   "num": "S2",
+   "page": 27,
+   "clip": [
+    165.5,
+    391.3,
+    429.8,
+    619.6
+   ],
+   "px": [
+    714,
+    575
+   ],
+   "file": "p18-figS2.png",
+   "caption": "Figure S2: Descriptive third-publication priority overlap. Among 196 matched products, the two top- 40 relative-depletion sets share 17 products, compared with 8.16 under uniform independent selection. This reference is an arithmetic expectation, not a calibrated biological null or an independent-reagent validation test. None of the 196 eligible products meets the source strong-depletion cutoﬀ. Source: Table S29."
+  },
+  {
+   "num": "S3",
+   "page": 28,
+   "clip": [
+    64.9,
+    64.9,
+    530.4,
+    284.0
+   ],
+   "px": [
+    1354,
+    637
+   ],
+   "file": "p18-figS3.png",
+   "caption": "Figure S3: Fixed synthetic shared-eﬃcacy positive control. (a) Product-by-cell-centred Pearson corre- lation. (b) Later selected-minus-all-guide mean after selecting the two most-depleting older guides. Each point summarizes 2,000 synthetic products with four guides and three ﬁxed contexts. Shared eﬃcacy is compared with equal eﬃcacy and later-guide label permutation over the complete ﬁxed noise grid. The noiseless shared-eﬃcacy values are exactly 1 and −0.300; equal-eﬃcacy correlation is undeﬁned at zero noise and is omitted. Connecting lines guide the eye. Values are illustrative simulation summaries, not conﬁdence intervals, a ﬁtted explanation or additional empirical discoveries. No model parameter was ﬁtted to the manuscript data. Source: Tables S33-S34; Supplementary Note 5."
+  }
+ ],
+ "p17": [
+  {
+   "num": "1",
+   "page": 7,
+   "clip": [
+    120.2,
+    30.1,
+    492.3,
+    589.5
+   ],
+   "px": [
+    1116,
+    1673
+   ],
+   "file": "p17-fig1.png",
+   "caption": "Figure 1: Generation of multispecies recombinant lubricins (rLub). (A) Upper: Schematic of an engineered rLub with 59 synthetic  KEPAPTTP repeats flanked by the native N- and C- globular domains of native human (Hn), equine (Eq), or canine (Ca) PRG4; threonine  residues in the repeats are post-translationally modified with O-GalNAc glycans that can be further extended at the 3’ and 6’ hydroxyls indicated  in red. Lower: constructs for the recombinant human (rHnLub), equine (rEqLub), and canine (rCaLub) lubricin-like glycoproteins. (B) Western  blot showing rHnLub, rEqLub, and rCaLub produced in HEK 293-F cells. (C) Liquid chromatography, mass spectroscopy analysis (LC-MS) of  O-glycans released from rHnLub through β-elimination. (D) Photographic and fluorescent images with fluorescent quantification of bovine car- tilage explants following a short incubation with either unlabeled or fluorescently labelled rHnLub. (E) Representative confocal images of the  surface of the cartilage explants in D additionally labelled with Hoescht 33342 to stain the chondrocyte nuclei."
+  },
+  {
+   "num": "2",
+   "page": 9,
+   "clip": [
+    54.0,
+    31.0,
+    558.0,
+    543.9
+   ],
+   "px": [
+    1306,
+    1530
+   ],
+   "file": "p17-fig2.png",
+   "caption": "Figure 2: Retention kinetics of recombinant human-like lubricin following intra-articular injection. (A) Schedule for IVIS imaging of sulfo- Cy7.5 labeled rHnLub (rHnLub-Cy7.5), sulfo-Cy7.5 labelled 500 kDa dextran (Dextran-Cy7.5), and unconjugated sulfo-Cy7.5 carboxylic acid  (free dye) following intra-articular injection into the knees of Sprague-Dawley rats. (B) Dual-mode micro-CT/IVIS imaging of the rat knee joint  following intra-articular injection of rHnLub-Cy7.5. (C) Representative IVIS images of the rat knee at the indicated time points following intra- articular injection with free dye, dextran-Cy7.5, and rHnLub-Cy7.5. (D) Normalized total fluorescence in the rodent knee at the indicated time  points following injection of free dye, dextran-Cy7.5, and rHnLub-Cy7.5. Inset shows the same curves, expanded to visualize the rapid decay in  the first 5 days. (E) Model and fitted parameters from the curves in (D)."
+  },
+  {
+   "num": "3",
+   "page": 10,
+   "clip": [
+    67.2,
+    30.1,
+    547.2,
+    314.6
+   ],
+   "px": [
+    1438,
+    849
+   ],
+   "file": "p17-fig3.png",
+   "caption": "Figure 3: A scalable bioprocess chain to produce recombinant lubricin.  (A) Schematic diagram of the complete bioprocess chain showing  the minimum set of operations.  (B) Cell viability (squares) and viable cell density (circles) of a 1 L rEqLub production perfusion culture.  (C)  Harvested volume (squares) and cumulative rEqLub production (circles) from the perfusion culture in (B)."
+  },
+  {
+   "num": "4",
+   "page": 11,
+   "clip": [
+    39.1,
+    30.1,
+    572.3,
+    434.1
+   ],
+   "px": [
+    1598,
+    1207
+   ],
+   "file": "p17-fig4.png",
+   "caption": "Figure 4: Cation exchange chromatography is a high-resolution capture operation.  (A) Plot of the predicted local charge (100 AA window)  along the rLub polypeptide backbone without glycosylation showing the net positive charge in the terminal, globular domains.  (B) Product con- centration by collected fraction during a linear gradient elution with NaCl from a cation exchange column at pH 5.5 (solid bars) or pH 6.8 (open  bars).  Concentration of rLub was determined by dot blot relative to the feed concentration.  (C) Silver-stained gel image of the pH 5.5 separation  shown in (B).  The heavy bands above 460 kDa correspond to rLub.  (D) Same as (C), but for the pH 6.8 separation.  (E) UV absorbance (solid  line) and conductivity (dashed line) chromatograms of the cation exchange step elution protocol.  (F) Silver-stained gel image of the capture by  step elution shown in (E).  Lanes: F – feed, T – flow-through, W – column wash, E1 – 400 mM elution, E2 – 800 mM elution."
+  },
+  {
+   "num": "5",
+   "page": 12,
+   "clip": [
+    85.3,
+    242.5,
+    525.3,
+    433.4
+   ],
+   "px": [
+    1320,
+    569
+   ],
+   "file": "p17-fig5.png",
+   "caption": "Figure 5: Intermediate purification with hydrophobic interaction chromatography removes most residual impurities.  (A) UV absorbance  (solid line) and conductivity (dashed line) chromatograms from a 1.0 M to 0 M sodium sulfate gradient elution.  The peak in the shaded box  corresponds to elution of the majority of rLub.  The asterisk denotes the major impurity peak.  (B) Silver-stained gel image of fractions from (A).   Lanes: F – feed, T – flow-through.  The rLub fractions are from the shaded area and asterisk from the corresponding peak in (A)."
+  },
+  {
+   "num": "6",
+   "page": 13,
+   "clip": [
+    50.6,
+    30.2,
+    532.9,
+    232.4
+   ],
+   "px": [
+    1448,
+    603
+   ],
+   "file": "p17-fig6.png",
+   "caption": "Figure 6: Polishing by size exclusion chromatography results in a high-purity product.  (A) UV absorbance chromatogram of an SEC pol- ishing operation on a Sephacryl S-400 column.  The single and double asterisk denote peaks containing rLub.  (B) Silver-stained gel image of the  collected fraction from (A).  Lanes: F – feed, followed by the first five fractions of the elution (shaded region in (A) with * and ** marking the  lubricin containing peaks in (A)), 2 – rLub product from a 2-step process omitting intermediate purification by HIC."
+  },
+  {
+   "num": "7",
+   "page": 14,
+   "clip": [
+    125.2,
+    30.0,
+    473.3,
+    518.8
+   ],
+   "px": [
+    1026,
+    1446
+   ],
+   "file": "p17-fig7.png",
+   "caption": "Figure 7: Recombinant lubricin is an effective cartilage lubricant.  (A) Coefficient of friction as a function of sliding speed.  Cartilage explants  were maintained in a bath of either PBS, 0.2 mg/mL rEqLub, 1 mg/mL rEqLub or bovine synovial fluid (BSF) (n= 5).  (B) Coefficients of friction  at 0.1, 1, and 10 mm/s as a function of lubricant."
+  }
+ ],
+ "p16": [
+  {
+   "num": "1",
+   "page": 3,
+   "clip": [
+    49.2,
+    52.7,
+    544.5,
+    536.1
+   ],
+   "px": [
+    1487,
+    1445
+   ],
+   "file": "p16-fig1.png",
+   "caption": "Fig. 1. Silicone liquids and soft gels stimulate rigidity signaling responses. (A) Top row: Pictures of fourth-generation and fifth-generation breast implants, liquid  silicone oil, and soft or rigid polyacrylamide (PA) and silicone gels. Lower rows: Representative phase-contrast images, cell masks, and Yes-associated protein (YAP)/transcriptional  coactivator with PDZ-binding motif (TAZ) staining of MCF10A MECs on the indicated substrate with adsorbed fibronectin. Scale bars, 30 m. Experiments were conducted in  triplicate. PA soft, 0.12 kPa; PA stiff, 20 kPa; silicone soft, 0.1 kPa; silicone stiff, 21 kPa; liquid silicone, negligible elasticity. Photo credit: Zhu Cheng and Matthew Paszek,  Cornell University. (B) Top: Representative immunoblot of total and phospho-FAK in MECs on the indicated substrates. Bottom: Quantification of the ratio of phospho-FAK  to total FAK from immunoblot shown in the top panel. Error bars show SEMs. **P < 0.005 and ns, not significant [one-way analysis of variance (ANOVA) with Tukey’s post hoc  test]; n > 4. (C) Representative immunoblot of total and phospho-FAK in MECs on the indicated substrates (top) and quantification of immunoblot signal (bottom). TCPS,  tissue culture polystyrene. Error bars show SEMs. ns, not significant. Wilcoxon rank scores test was used; n > 4. (D) Quantification of the ratio of nuclear YAP signal to  cytoplasmic YAP signal. ***P < 0.001, one-way ANOVA; n > 35 per condition. Experiments were conducted in triplicate. Horizontal lines are medians. Boxes show the inter- quartile range (IQR). Whiskers extend to minimum and maximum values."
+  },
+  {
+   "num": "2",
+   "page": 4,
+   "clip": [
+    41.8,
+    53.7,
+    550.6,
+    466.7
+   ],
+   "px": [
+    1521,
+    1235
+   ],
+   "file": "p16-fig2.png",
+   "caption": "Fig. 2. Cellular stimulation by silicone is not explained by differences in ligand tethering. (A) Covalently attached TAMRA-tagged RGD peptide on the surfaces of PA  and silicone substrates. (B) Top: Representative fluorescence images of TAMRA-RGD peptide conjugated on the surface of PA and silicone substrates. Lower rows:  Phase-contrast images and representative cell masks of MECs on PA and silicone substrates of the indicated stiffness. Scale bars, 50 m. (C) Quantification of the mean  fluorescence intensity of the TAMRA-RGD peptide on soft and stiff substrates. t test was used. Five independent samples were used per condition (n > 20 per condition).  a.u., arbitrary units. (D) Quantification of cell spread area of MECs on PA substrates with conjugated fibronectin, silicone substrates with adsorbed fibronectin, and PA or  silicone substrates with conjugated TAMRA-RGD peptide. ***P < 0.001, t test; n > 45 cells per condition. PA soft, 0.12 kPa; PA stiff, 20 kPa; silicone soft, 0.1 kPa; silicone stiff,  21 kPa. Experiments were conducted in triplicate. Error bars show SEMs."
+  },
+  {
+   "num": "3",
+   "page": 5,
+   "clip": [
+    24.0,
+    53.0,
+    556.0,
+    398.0
+   ],
+   "px": [
+    1573,
+    1030
+   ],
+   "file": "p16-fig3.png",
+   "caption": "Fig. 3. Silicone substrates have high surface energies and surface stresses. (A) Schematic depicting the indentation of a rigid indenter (steel ball) into an elastic  substrate. (B) Confocal fluorescence images showing the surface profiles of PA gels (E = 125 Pa; top left) and silicone gels (E = 100 Pa; bottom left) submerged in buffer or  buffer with 1% Triton X-100 and indented by steel balls with radii of 254 m. Horizontal scale bar, 100 m; vertical scale bar, 30 m. (C) Indentation depth, d, of the steel  ball versus substrate elastic modulus, E, for PA and silicone gels of the indicated stiffness. Steel balls used were 254, 175, or 118 m in radii, as indicated; n ≥ 5. (D) Slopes  of the log-log scale plots shown in (C). Hertz contact theory predicts a slope of −2/3. ***P < 0.001, t test; n = 4. Error bars show SEMs. (E) Observed substrate hardness,  F/(a∙d), versus elastic modulus; F is the indentation force, and a is the measured contact radius of the indenter. The dashed line shows the prediction by Hertz contact  theory; n ≥ 12. Error bars show SEMs. (F) Ratio of observed and predicted hardness, (a*∙d*)/(a∙d), versus the elastocapillary number, a∙(E/), for silicone gels submerged in  buffer or buffer with surfactant. a* and d* are the Hertz predicted contact radius and indentation depth, respectively. Experimental data converge on a theoretical mod- el of contact for an elastic substrate having surface tension. Best-fit surface tensions are 0.04 and 0.007 N/m for measurements in buffer and buffer with surfactant, re- spectively. (G) Best-fit surface tensions of silicone substrates with no adsorbed surface proteins (No treatment), adsorbed with fibronectin (FN), adsorbed with fibronectin  and measured after 24 hours of culture with MEC cells (FN + cells), or adsorbed with fibronectin and treated with 1% Triton X-100 (FN + Triton). ***P < 0.001, t test; n ≥ 100.  Horizontal lines are medians. Boxes show the IQR. Whiskers extend to minimum and maximum values."
+  },
+  {
+   "num": "4",
+   "page": 6,
+   "clip": [
+    24.0,
+    494.0,
+    570.0,
+    645.0
+   ],
+   "px": [
+    1592,
+    442
+   ],
+   "file": "p16-fig4.png",
+   "caption": "Fig. 4. Surfactant treatment reduces silicone surface stresses and attenuates rigidity responses. (A) Relationships between cell spread area of MECs and the elastic  moduli of PA or silicone gels; n > 40 cells per condition. Experiments were conducted in triplicate. (B) Confocal fluorescence images showing the indentation profiles of silicone  gels with or without pretreatment with surfactant (0.1% Span 85). Indentation measurements were made using 254-m radius steel balls after culture of cells for 24 hours.  Horizontal scale bar, 100 m; vertical scale bar, 30 m. (C) Percentage of dead cells among total cells growing on silicone gels versus surfactant (0.1% Span85)–pretreated  silicone gels 24 hours after seeding. t test was used. A total of 190 to 280 cells were analyzed for each condition. Experiments were conducted in triplicate. (D) Quantification  of cell area on silicone gels versus surfactant (0.1% Span85)–­pretreated silicone gels. ***P < 0.001, t test; n ≥ 40. Experiments were conducted in triplicate. Error bars show SEMs."
+  },
+  {
+   "num": "5",
+   "page": 7,
+   "clip": [
+    63.7,
+    51.9,
+    523.6,
+    585.4
+   ],
+   "px": [
+    1374,
+    1594
+   ],
+   "file": "p16-fig5.png",
+   "caption": "Fig. 5. Silicone stimulates foreign body–like responses. (A) Kinetics of fibronectin adsorption onto silicone droplets. Inset: Confocal images of adsorbed ATTO  488-fibronectin on the surface of silicone droplets. Scale bar, 10 m. (B) A schematic workflow for silicone-collagen overlay assays with PBMCs. Silicone oil was spread on the  bottom of 96-well plates and incubated as indicated. Subsequently, PBMCs were seeded on top of the silicone and allowed to adhere before covering the cells with bovine  collagen I solution. After polymerization of the collagen, samples were placed in an incubator and cultured for 7 days at 37°C, 5% CO2. MEM, minimal essential Eagle’s  medium; BIC, sodium bicarbonate. (C) Representative images of the cells on glass and silicone substrates overlaid with collagen and treated with dimethyl sulfoxide  (DMSO) control, 5 M PF-573228 (FAK inhibitor), and 0.1 M dasatinib (Src inhibitor). Dashed red squares in the first column panels designate regions of interest (Phalloidin  ROI). Scale bars, 8 m. PBMCs from two independent horse donors were tested in triplicate. (D) Ratio of the number of nuclei from the fused multinucleated foreign  body–like giant cells over total number of nuclei. Cells from two different horse donors were analyzed. More than 110 nuclei were analyzed for each horse per condition.  ***P < 0.001 and **P < 0.01, t test. Error bars show SEMs. (E) Schematic depicting the interaction of multinucleated foreign body–like giant cells with silicone droplets. (F) 3D recon- struction of PBMCs on the spherical silicone droplet. Blue, multinucleated foreign body giant cell; gray, silicone droplet. Left: side view; middle: front view; right: immu- nofluorescence images of filamentous actin stained with phalloidin and major histocompatibility complex II (MHCII) in PBMC clusters on the silicone droplet and a  z projection of cell nuclei in the cluster. PBMCs from two independent horse donors were tested in triplicate. Scale bar, 5 m."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "cornell": {
+  "size": [
+   548,
+   543
+  ],
+  "red": "#b31b1b",
+  "outside_transparent": true
+ },
+ "cornell_white_supplied": {
+  "size": [
+   860,
+   898
+  ],
+  "opaque_share": 1.0,
+  "distinct_grey_levels": [
+   238,
+   239,
+   240,
+   241,
+   242,
+   243,
+   244,
+   245,
+   246,
+   247,
+   248,
+   249
+  ]
+ },
+ "radboud": {
+  "paths": [
+   "logo",
+   "tekst"
+  ],
+  "red": "#b52519",
+  "viewBox": "0 0 312 400",
+  "note": "path 'tekst' is the motto band of the emblem (IN DEI NOMINE FELICITER), checked on a rendering; it is not the wordmark 'Radboud Universiteit'",
+  "alternative_without_motto": [
+   "radboud-shield-red.svg",
+   "radboud-shield-white.svg"
+  ]
+ },
+ "vaionex": {
+  "size": [
+   640,
+   471
+  ],
+  "crop_box": [
+   12,
+   282,
+   2026,
+   1764
+  ]
+ }
+}

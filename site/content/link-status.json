@@ -1,0 +1,276 @@
+{
+ "_checked": "2026-11-24T21:24:15.829Z",
+ "_note": "HTTP status from this machine with a browser user agent. 403/429/999 often mean bot protection, not a dead page.",
+ "https://frapbotbeta.shinyapps.io/peptify/": {
+  "status": 202,
+  "usedBy": [
+   "paper-04:Open app"
+  ]
+ },
+ "https://github.com/Kohze/Peptify.git": {
+  "status": 200,
+  "final": "https://github.com/Kohze/Peptify",
+  "usedBy": [
+   "paper-04:GitHub"
+  ]
+ },
+ "http://frapbot.kohze.com": {
+  "status": 200,
+  "final": "http://frapbot.kohze.com/",
+  "usedBy": [
+   "paper-12:Open app"
+  ]
+ },
+ "https://github.com/Kohze/Frapbot": {
+  "status": 200,
+  "usedBy": [
+   "paper-12:GitHub"
+  ]
+ },
+ "https://scopem.ethz.ch/education/knowledge-resources/FRAPandFLIP.html?fbclid=IwAR2KoUDXdmYyRwZrXWjYo9T444FMmnRYf5-ecpolg94fy49-9UXwxfyBfpc": {
+  "status": 200,
+  "usedBy": [
+   "paper-12:ETH Zurich",
+   "resource-eth-frap:Open resource"
+  ]
+ },
+ "https://www.radboudumc.nl/en/news/2017/frapbot-a-web-application-for-frap-data-analysis": {
+  "status": 200,
+  "usedBy": [
+   "paper-12:Press"
+  ]
+ },
+ "http://www.ibg.kit.edu/protein_origami/?page=index": {
+  "status": 200,
+  "final": "https://www.ibg.kit.edu/protein_origami/?page=index",
+  "usedBy": [
+   "paper-13:Open app"
+  ]
+ },
+ "https://github.com/sabinereisser/protein_origami": {
+  "status": 200,
+  "final": "https://github.com/sreisser/protein_origami",
+  "usedBy": [
+   "paper-13:GitHub"
+  ]
+ },
+ "https://github.com/rstats-gsoc/gsoc2017/wiki/FireData---Connecting-R-to-Google-Firebase": {
+  "status": 200,
+  "usedBy": [
+   "project-01:Wiki"
+  ]
+ },
+ "https://github.com/Kohze/fireData": {
+  "status": 200,
+  "usedBy": [
+   "project-01:GitHub",
+   "about:Google Summer of Code"
+  ]
+ },
+ "https://summerofcode.withgoogle.com/archive/2017/organizations/5555424770129920/": {
+  "status": 200,
+  "usedBy": [
+   "project-01:R / GSoC organization"
+  ]
+ },
+ "https://www.radboudumc.nl/en/news/2017/prestigious-google-soc-grant": {
+  "status": 200,
+  "usedBy": [
+   "project-01:Press"
+  ]
+ },
+ "https://github.com/Kohze/Discovr": {
+  "status": 200,
+  "usedBy": [
+   "project-02:GitHub",
+   "about:Google Summer of Code – Discovr"
+  ]
+ },
+ "https://summerofcode.withgoogle.com/archive/2016/organizations/6032418200879104/": {
+  "status": 200,
+  "usedBy": [
+   "project-02:R / GSoC organization"
+  ]
+ },
+ "https://summerofcode.withgoogle.com/archive/2018/projects/6088046147534848/": {
+  "status": 200,
+  "usedBy": [
+   "project-03:GSoC project",
+   "about:Google Summer of Code – Firedata and Cloud Firestore"
+  ]
+ },
+ "https://summerofcode.withgoogle.com/archive/2018/organizations/6343413561556992/": {
+  "status": 200,
+  "usedBy": [
+   "project-03:R / GSoC organization",
+   "project-04:R / GSoC organization"
+  ]
+ },
+ "https://www.radboudumc.nl/en/news/2018/prestigious-google-soc-grants-for-robin-kohze-and-samuel-schmidt": {
+  "status": 200,
+  "usedBy": [
+   "project-03:Press",
+   "project-04:Press"
+  ]
+ },
+ "https://github.com/paulsp94/fireData": {
+  "status": 200,
+  "usedBy": [
+   "project-04:GitHub"
+  ]
+ },
+ "https://paulspen.de/fireData/": {
+  "status": 200,
+  "usedBy": [
+   "project-04:Wiki"
+  ]
+ },
+ "https://summerofcode.withgoogle.com/archive/2018/projects/5750197846016000/": {
+  "status": 200,
+  "usedBy": [
+   "project-04:GSoC project",
+   "about:Google Summer of Code – Firedata for Shiny and OpenCPU"
+  ]
+ },
+ "http://www.functionalglycomics.org/static/consortium/Nomenclature.shtml": {
+  "status": 404,
+  "final": "https://www.functionalglycomics.org/static/consortium/Nomenclature.shtml",
+  "usedBy": [
+   "resource-nomenclature:Open resource"
+  ]
+ },
+ "https://youtu.be/62UcawMOqnc": {
+  "status": 429,
+  "final": "https://www.google.com/sorry/index?continue=https://youtu.be/62UcawMOqnc&q=EgS7DjESGIGBmNgGIjCkJysUfc_cqGHs-78GyAtSJAUmSBCoupL3HLnNGC6nLSz-ZsEg-2NUctEDVMjz4xcyCT5yUmVDY25kaloBQ2DknMqT4MeF5ik",
+  "usedBy": [
+   "resource-spaac-video:Open resource"
+  ]
+ },
+ "http://vaionex.com": {
+  "status": 200,
+  "final": "https://vaionex.com/",
+  "usedBy": [
+   "about:Vaionex Corporation",
+   "about:Vaionex Corporation"
+  ]
+ },
+ "https://publons.com/researcher/1750018/dr-samuel-schmidt/": {
+  "status": 200,
+  "final": "https://www.webofscience.com/wos/author/rid/G-5989-2011",
+  "usedBy": [
+   "about:Publons"
+  ]
+ },
+ "https://www.linkedin.com/in/samuel-schmidt/": {
+  "status": 200,
+  "final": "https://www.linkedin.com/in/samuel-schmidt",
+  "usedBy": [
+   "about:LinkedIn"
+  ]
+ },
+ "https://github.com/ciroyo": {
+  "status": 200,
+  "usedBy": [
+   "about:GitHub"
+  ]
+ },
+ "https://twitter.com/glycosylation": {
+  "status": 200,
+  "final": "https://x.com/glycosylation",
+  "usedBy": [
+   "about:Twitter"
+  ]
+ },
+ "https://www.reddit.com/user/Glycomics": {
+  "status": 403,
+  "final": "https://www.reddit.com/user/Glycomics/",
+  "usedBy": [
+   "about:Reddit"
+  ]
+ },
+ "https://www.youtube.com/channel/UCZqqeWlCJnn1w35Ndttlu4Q": {
+  "status": 200,
+  "usedBy": [
+   "about:YouTube"
+  ]
+ },
+ "https://twetch.app/u/14002": {
+  "status": 200,
+  "final": "https://twetch.com/u/14002",
+  "usedBy": [
+   "about:Twetch"
+  ]
+ },
+ "http://www.vaionex.com": {
+  "status": 200,
+  "final": "https://www.vaionex.com/",
+  "usedBy": [
+   "about:Vaionex Corporation"
+  ]
+ },
+ "https://phoenix-challenge.com/dashboard": {
+  "status": 0,
+  "note": "ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR",
+  "usedBy": [
+   "about:Cambridge University Phoenix Challenge"
+  ]
+ },
+ "https://www.scitivia.com": {
+  "status": 403,
+  "final": "https://www.hugedomains.com/domain_profile.cfm?d=scitivia.com",
+  "usedBy": [
+   "about:Scitivia"
+  ]
+ },
+ "http://frapbot.kohze.com/index.html": {
+  "status": 200,
+  "usedBy": [
+   "about:Frapbot",
+   "about:Frapbot"
+  ]
+ },
+ "https://r-codes.com/": {
+  "status": 0,
+  "note": "ENOTFOUND",
+  "usedBy": [
+   "about:Block codes",
+   "about:Block-codes"
+  ]
+ },
+ "https://www.respora.com": {
+  "status": 0,
+  "note": "ENOTFOUND",
+  "usedBy": [
+   "about:Respora"
+  ]
+ },
+ "https://embed.tawk.to/5d9c23dedb28311764d7c863/default": {
+  "status": 200,
+  "usedBy": [
+   "support"
+  ]
+ },
+ "https://www.kicnano.cornell.edu/": {
+  "status": 200,
+  "final": "https://www.kicnano.cornell.edu/",
+  "usedBy": [
+   "about:Nanoscale Glycoscience"
+  ],
+  "note": "checked 2026-11-25; replaces http://www.kicnano.cornell.edu/fellows/ (HTTP 404) as the general institute link"
+ },
+ "https://www.isct.uni-tuebingen.de/wsic/research/research-groups/imaging-sciences/multiscale-immunoimaging": {
+  "status": 200,
+  "final": "https://www.isct.uni-tuebingen.de/wsic/research/research-groups/imaging-sciences/multiscale-immunoimaging",
+  "usedBy": [
+   "learning:in-vivo"
+  ],
+  "note": "checked 2026-11-25; page title 'Preclinical Imaging of the Immune System'"
+ },
+ "https://www.linkedin.com/in/bettina-weigelin/": {
+  "status": 405,
+  "usedBy": [
+   "learning:in-vivo"
+  ],
+  "note": "2026-11-25: LinkedIn refuses automated requests (HTTP 405 to HEAD); target given directly by the owner, not treated as a dead link"
+ }
+}

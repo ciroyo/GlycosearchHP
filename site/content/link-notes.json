@@ -1,0 +1,34 @@
+{
+ "_about": "External targets that were unreachable when checked. The site handles them silently: where an Internet Archive copy exists it is used as the link; where none exists, or the owner asked for no link (noLink), only the text is shown. No warning text appears on the site. Re-check with scripts/check-links.mjs.",
+ "_checked": "2026-11-24",
+ "http://www.functionalglycomics.org/static/consortium/Nomenclature.shtml": {
+  "reason": "HTTP 404",
+  "archive": "https://web.archive.org/web/20200214171222/http://www.functionalglycomics.org:80/static/consortium/Nomenclature.shtml",
+  "archiveYear": 2020
+ },
+ "http://www.kicnano.cornell.edu/fellows/": {
+  "reason": "HTTP 404",
+  "archive": "https://web.archive.org/web/20200618090200/http://www.kicnano.cornell.edu/fellows/",
+  "archiveYear": 2020
+ },
+ "https://r-codes.com/": {
+  "reason": "domain does not resolve",
+  "archive": "https://web.archive.org/web/20191210073344/https://r-codes.com/",
+  "archiveYear": 2019
+ },
+ "https://www.respora.com": {
+  "reason": "domain does not resolve",
+  "archive": "https://web.archive.org/web/20201022064820/https://www.respora.com/",
+  "archiveYear": 2020,
+  "noLink": true
+ },
+ "https://www.scitivia.com": {
+  "reason": "domain is parked and for sale; no archived copy found"
+ },
+ "https://phoenix-challenge.com/dashboard": {
+  "reason": "TLS error",
+  "archive": "https://web.archive.org/web/20200504094302/https://phoenix-challenge.com/dashboard",
+  "archiveYear": 2020
+ },
+ "_decision": "Owner decision 2026-11-25: no archive warnings, no placeholders for missing links; Respora shown as text without any link."
+}

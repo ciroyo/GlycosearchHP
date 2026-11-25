@@ -1,0 +1,16 @@
+{
+  "name": "glycosearch-site",
+  "version": "2026.11.0",
+  "private": true,
+  "type": "module",
+  "description": "Glycosearch research website (static site generator, preview server, checks)",
+  "scripts": {
+    "extract": "python3 scripts/extract-legacy.py",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "preview": "node scripts/build.mjs && node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "optionalDependencies": { "@anthropic-ai/sdk": "*" }
+}
