@@ -547,7 +547,9 @@ section("Round 2: home video, footer, brand, patent, chapter, CV, profile, filte
   ok(anzahl === 9, "experience links: 1 Vaionex + 8 new link buttons", String(anzahl));
   const labelsAll = [...about.matchAll(/class="ico-group">([\s\S]*?)<\/span><\/p>/g)].map((x) => x[1]).join("");
   for (const n of ["KIC", "Cornell Chemical and Biomolecular Engineering", "RIMLS", "Roland Brock", "Radboud University research", "Peter Friedl"]) ok(labelsAll.includes(n), `experience links: accessible name names ${n}`);
-  ok(/\.timeline \.where\.with-links \{[^}]*flex-wrap: wrap/.test(fs.readFileSync(path.join(SITE, "src/styles.css"), "utf8")), "experience links: the button group wraps below the affiliation on narrow screens");
+  { const css = fs.readFileSync(path.join(SITE, "src/styles.css"), "utf8");
+    ok(/\.timeline \.where\.with-links \{[^}]*grid-template-columns: minmax\(0, 68ch\) auto; justify-content: space-between;[^}]*max-width: none;/.test(css) && /\.timeline \.ico-group \{[^}]*justify-self: end;/.test(css) && /\.linkrows \{[^}]*\}/.test(css) && !/\.linkrows \{[^}]*max-width/.test(css), "experience links: affiliation row spans the full column like the product rows, group anchored at the right edge (26 Nov 2026)");
+    ok(/@media \(max-width: 560px\) \{ \.timeline \.where\.with-links \{ grid-template-columns: minmax\(0, 1fr\); \} \}/.test(css), "experience links: on narrow screens the group moves below the affiliation, still right-aligned"); }
   ok(/\.timeline \.ico-group \.ico\[data-tip\]::after \{ left: auto; right: 0; \}/.test(fs.readFileSync(path.join(SITE, "src/styles.css"), "utf8")), "experience links: tooltips open towards the text (not past the right edge)");
 }
 { // CV: the file offered for download is the updated edition

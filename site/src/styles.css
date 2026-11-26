@@ -328,9 +328,10 @@ dialog::backdrop { background: var(--scrim); }
 .timeline h3 { margin-bottom: 4px; }
 .timeline .where { color: var(--muted); font-size: 0.9rem; margin-bottom: var(--s3); }
 /* affiliation + link buttons: buttons right of the text; when the line gets too narrow the group moves below, in order */
-.timeline .where.with-links { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px var(--s3); }
-.timeline .where-text { flex: 1 1 18rem; min-width: 0; padding-top: 8px; }
-.timeline .ico-group { display: flex; flex-wrap: wrap; gap: 8px; flex: none; margin-left: auto; } /* right edge, also when wrapped below */
+.timeline .where.with-links { display: grid; grid-template-columns: minmax(0, 68ch) auto; justify-content: space-between; align-items: start; gap: 8px var(--s3); max-width: none; } /* full column width: the last button sits on the same right edge as the product buttons (.linkrows); the text keeps its readable width */
+.timeline .where-text { min-width: 0; padding-top: 8px; }
+.timeline .ico-group { display: flex; gap: 8px; justify-self: end; }
+@media (max-width: 560px) { .timeline .where.with-links { grid-template-columns: minmax(0, 1fr); } } /* narrow: buttons below the affiliation, still on the right edge, in order */
 .timeline .ico-group .ico[data-tip]::after { left: auto; right: 0; } /* tooltip opens towards the text, never past the right edge */
 .timeline p { color: var(--ink-2); font-size: 0.96rem; max-width: 68ch; }
 .profile { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: var(--s7); align-items: start; }
