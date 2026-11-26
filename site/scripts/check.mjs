@@ -521,6 +521,35 @@ section("Round 2: home video, footer, brand, patent, chapter, CV, profile, filte
   ok((about.match(/cornell-seal-red\.png/g) || []).length === 1 && rows[0].light !== "cornell-seal-red.png", "Cornell seal appears once, at the 2018–2022 fellowship (no current Cornell position implied)");
   ok(about.includes('aria-label="Open the Vaionex Corporation website"') && about.includes('href="https://www.vaionex.com/"'), "Vaionex link stays in the Experience context");
 }
+{ // 26 Nov 2026: Experience link buttons right of the affiliation, exact targets and order (owner request)
+  const about = fs.readFileSync(path.join(DIST, "about/index.html"), "utf8");
+  const SOLL = {
+    "Co-Founder, CFO, Product Lead and Data Scientist": ["https://www.vaionex.com/"],
+    "KIC PostDoc Fellow": ["https://www.kicnano.cornell.edu", "https://www.duffield.cornell.edu/cbe/"],
+    "Roche PostDoc Fellow": ["https://www.ru.nl/en/rimls", "https://www.ru.nl/en/people/brock-r", "https://www.ru.nl/en/research"],
+    "Ph.D. candidate": ["https://www.ru.nl/en/rimls", "https://www.ru.nl/en/people/friedl-p", "https://www.ru.nl/en/research"],
+  };
+  let anzahl = 0;
+  for (const [rolle, urls] of Object.entries(SOLL)) {
+    const m = about.match(new RegExp(`<h3>${rolle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}</h3><p class="where with-links"><span class="where-text">([^<]*)</span><span class="ico-group">((?:<a [^>]*>[\\s\\S]*?</a>)+)</span></p>`));
+    ok(!!m, `experience links: affiliation and button group present for ${rolle}`);
+    if (!m) continue;
+    const as = [...m[2].matchAll(/<a ([^>]*)>/g)].map((x) => x[1]);
+    const hrefs = as.map((a) => (a.match(/href="([^"]+)"/) || [])[1]);
+    const labels = as.map((a) => (a.match(/aria-label="([^"]+)"/) || [])[1]);
+    const tips = as.map((a) => (a.match(/data-tip="([^"]+)"/) || [])[1]);
+    anzahl += hrefs.length;
+    ok(JSON.stringify(hrefs) === JSON.stringify(urls), `experience links: targets and order for ${rolle}`, JSON.stringify(hrefs));
+    ok(labels.every((l, i) => l && l === tips[i]) && new Set(labels).size === labels.length, `experience links: distinct accessible names equal to the tooltips for ${rolle}`, JSON.stringify(labels));
+    ok(as.every((a) => /class="ico /.test(a) && /target="_blank"/.test(a) && /rel="noopener noreferrer"/.test(a)), `experience links: compact icon buttons opening a new tab for ${rolle}`);
+    ok(!/https?:|www\./.test(m[1]) && !/https?:|www\./.test(m[2].replace(/<[^>]+>/g, "")), `experience links: no written URL for ${rolle}`);
+  }
+  ok(anzahl === 9, "experience links: 1 Vaionex + 8 new link buttons", String(anzahl));
+  const labelsAll = [...about.matchAll(/class="ico-group">([\s\S]*?)<\/span><\/p>/g)].map((x) => x[1]).join("");
+  for (const n of ["KIC", "Cornell Chemical and Biomolecular Engineering", "RIMLS", "Roland Brock", "Radboud University research", "Peter Friedl"]) ok(labelsAll.includes(n), `experience links: accessible name names ${n}`);
+  ok(/\.timeline \.where\.with-links \{[^}]*flex-wrap: wrap/.test(fs.readFileSync(path.join(SITE, "src/styles.css"), "utf8")), "experience links: the button group wraps below the affiliation on narrow screens");
+  ok(/\.timeline \.ico-group \.ico\[data-tip\]::after \{ left: auto; right: 0; \}/.test(fs.readFileSync(path.join(SITE, "src/styles.css"), "utf8")), "experience links: tooltips open towards the text (not past the right edge)");
+}
 { // CV: the file offered for download is the updated edition
   const cvPdf = path.join(DIST, "assets/CV.pdf"), cvDocx = path.join(DIST, "assets/CV.docx"), oldPdf = path.join(SITE, "../assets/CV.pdf"), oldDocx = path.join(SITE, "../assets/CV.docx"), mirror = path.join(SITE, "../legacy-live-2026-11-24/assets/CV.pdf");
   ok(sha(cvPdf) === sha(path.join(ADD, "cv/CV.pdf")) && sha(cvDocx) === sha(path.join(ADD, "cv/CV.docx")), "served CV.pdf and CV.docx are the updated edition from additions/cv");

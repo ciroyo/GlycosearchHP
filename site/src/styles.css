@@ -327,6 +327,11 @@ dialog::backdrop { background: var(--scrim); }
 .org-logo img { display: block; width: auto; height: var(--h, 56px); }
 .timeline h3 { margin-bottom: 4px; }
 .timeline .where { color: var(--muted); font-size: 0.9rem; margin-bottom: var(--s3); }
+/* affiliation + link buttons: buttons right of the text; when the line gets too narrow the group moves below, in order */
+.timeline .where.with-links { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px var(--s3); }
+.timeline .where-text { flex: 1 1 18rem; min-width: 0; padding-top: 8px; }
+.timeline .ico-group { display: flex; flex-wrap: wrap; gap: 8px; flex: none; margin-left: auto; } /* right edge, also when wrapped below */
+.timeline .ico-group .ico[data-tip]::after { left: auto; right: 0; } /* tooltip opens towards the text, never past the right edge */
 .timeline p { color: var(--ink-2); font-size: 0.96rem; max-width: 68ch; }
 .profile { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: var(--s7); align-items: start; }
 .profile .portrait { border: 1px solid var(--line-strong); border-radius: var(--radius); overflow: hidden; background: var(--doc); }

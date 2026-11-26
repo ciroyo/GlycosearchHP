@@ -241,6 +241,10 @@
     "when": "2018 – 2022",
     "where": "Kavli Institute at Cornell for Nanoscale Science and Robert Frederick Smith School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, NY, USA",
     "text": "As a Kavli Fellow, I investigated how specific biophysical and biochemical properties of the cell-surface glycan layer (the glycocalyx) enable cells to interact with nanometer-scale structures in biological tissues and biomimetic culture systems.",
+    "links": [
+      { "url": "https://www.kicnano.cornell.edu", "label": "Open the KIC website (Kavli Institute at Cornell for Nanoscale Science)" },
+      { "url": "https://www.duffield.cornell.edu/cbe/", "label": "Open Cornell Chemical and Biomolecular Engineering" }
+    ],
     "logo": "cornell"
    },
    {
@@ -248,6 +252,11 @@
     "when": "2013 – 2018",
     "where": "Biochemistry of Integrated Systems, RIMLS, Nijmegen, The Netherlands",
     "text": "In this project, I developed a GFP complementation assay to study the transport of functional cell-penetrating peptides (CPPs) from the cell surface to the cytosol, with a focus on endosomal release. I also studied the influence of cell-surface glycosylation on the uptake of CPPs. Alongside advanced biochemical approaches, fluorescence correlation spectroscopy (FCS) and fluorescence recovery after photobleaching (FRAP), I used confocal microscopy to analyze and visualize the contact regions between CPPs (especially cationic CPPs) and negatively charged cell-surface glycan moieties. Furthermore, I studied the impact of CPP binding on the lateral mobility of cell-surface glycolipids and glycoproteins using atomic force microscopy and spectroscopy (AFM/AFS) and the FRAP technique, which I have optimized for glycan analysis over the past years.",
+    "links": [
+      { "url": "https://www.ru.nl/en/rimls", "label": "Open the RIMLS website (Radboud Institute for Molecular Life Sciences)" },
+      { "url": "https://www.ru.nl/en/people/brock-r", "label": "Open Roland Brock's profile at Radboud University" },
+      { "url": "https://www.ru.nl/en/research", "label": "Open Radboud University research" }
+    ],
     "logo": "radboud"
    },
    {
@@ -255,6 +264,11 @@
     "when": "2008 – 2012",
     "where": "Cellbiology and Celldynamics, RIMLS, Nijmegen, The Netherlands",
     "text": "During my Ph.D. project, I was able to learn advanced imaging procedures, including confocal microscopy, to visualize cell-matrix interactions and dynamic cell patterning, for example during tumor migration and invasion. My responsibilities included developing a cell culture technique to analyze the influence of glycocalyx components in mediating cell migration and invasion in a 3D environment in vitro and in vivo. As a result, I have a strong background in cell and molecular biology and in microscopy, including time-lapse microscopy, confocal microscopy, and atomic force microscopy and spectroscopy (AFM/AFS), as well as in glycobiology, and I have experience in glycochemistry.",
+    "links": [
+      { "url": "https://www.ru.nl/en/rimls", "label": "Open the RIMLS website (Radboud Institute for Molecular Life Sciences)" },
+      { "url": "https://www.ru.nl/en/people/friedl-p", "label": "Open Peter Friedl's profile at Radboud University" },
+      { "url": "https://www.ru.nl/en/research", "label": "Open Radboud University research" }
+    ],
     "logo": "radboud"
    }
   ],
