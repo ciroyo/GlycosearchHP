@@ -526,7 +526,7 @@ section("Round 2: home video, footer, brand, patent, chapter, CV, profile, filte
   const SOLL = {
     "Co-Founder, CFO, Product Lead and Data Scientist": ["https://www.vaionex.com/"],
     "KIC PostDoc Fellow": ["https://www.kicnano.cornell.edu", "https://www.duffield.cornell.edu/cbe/"],
-    "Roche PostDoc Fellow": ["https://www.ru.nl/en/rimls", "https://www.ru.nl/en/people/brock-r", "https://www.ru.nl/en/research"],
+    "Roche PostDoc Fellow": ["https://careers.roche.com/global/en/the-roche-postdoctoral-fellowship-programme", "https://www.ru.nl/en/rimls", "https://www.ru.nl/en/people/brock-r", "https://www.ru.nl/en/research"],
     "Ph.D. candidate": ["https://www.ru.nl/en/rimls", "https://www.ru.nl/en/people/friedl-p", "https://www.ru.nl/en/research"],
   };
   let anzahl = 0;
@@ -544,12 +544,12 @@ section("Round 2: home video, footer, brand, patent, chapter, CV, profile, filte
     ok(as.every((a) => /class="ico /.test(a) && /target="_blank"/.test(a) && /rel="noopener noreferrer"/.test(a)), `experience links: compact icon buttons opening a new tab for ${rolle}`);
     ok(!/https?:|www\./.test(m[1]) && !/https?:|www\./.test(m[2].replace(/<[^>]+>/g, "")), `experience links: no written URL for ${rolle}`);
   }
-  ok(anzahl === 9, "experience links: 1 Vaionex + 8 new link buttons", String(anzahl));
+  ok(anzahl === 10, "experience links: 1 Vaionex + 9 academic link buttons (KIC 2, Roche 4, Ph.D. 3)", String(anzahl));
   const labelsAll = [...about.matchAll(/class="ico-group">([\s\S]*?)<\/span><\/p>/g)].map((x) => x[1]).join("");
-  for (const n of ["KIC", "Cornell Chemical and Biomolecular Engineering", "RIMLS", "Roland Brock", "Radboud University research", "Peter Friedl"]) ok(labelsAll.includes(n), `experience links: accessible name names ${n}`);
+  for (const n of ["The Roche Postdoctoral Fellowship Programme", "KIC", "Cornell Chemical and Biomolecular Engineering", "RIMLS", "Roland Brock", "Radboud University research", "Peter Friedl"]) ok(labelsAll.includes(n), `experience links: accessible name names ${n}`);
   { const css = fs.readFileSync(path.join(SITE, "src/styles.css"), "utf8");
     ok(/\.timeline \.where\.with-links \{[^}]*grid-template-columns: minmax\(0, 68ch\) auto; justify-content: space-between;[^}]*max-width: none;/.test(css) && /\.timeline \.ico-group \{[^}]*justify-self: end;/.test(css) && /\.linkrows \{[^}]*\}/.test(css) && !/\.linkrows \{[^}]*max-width/.test(css), "experience links: affiliation row spans the full column like the product rows, group anchored at the right edge (26 Nov 2026)");
-    ok(/@media \(max-width: 560px\) \{ \.timeline \.where\.with-links \{ grid-template-columns: minmax\(0, 1fr\); \} \}/.test(css), "experience links: on narrow screens the group moves below the affiliation, still right-aligned"); }
+    ok(/@media \(max-width: 560px\) \{ \.timeline \.where\.with-links \{ grid-template-columns: minmax\(0, 1fr\); \} \.timeline \.ico-group \{ position: relative; \} \.timeline \.ico-group \.ico \{ position: static; \} \}/.test(css), "experience links: on narrow screens the group moves below the affiliation, still right-aligned; tooltips anchored at the group edge"); }
   ok(/\.timeline \.ico-group \.ico\[data-tip\]::after \{ left: auto; right: 0; \}/.test(fs.readFileSync(path.join(SITE, "src/styles.css"), "utf8")), "experience links: tooltips open towards the text (not past the right edge)");
 }
 { // CV: the file offered for download is the updated edition

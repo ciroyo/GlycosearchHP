@@ -331,7 +331,7 @@ dialog::backdrop { background: var(--scrim); }
 .timeline .where.with-links { display: grid; grid-template-columns: minmax(0, 68ch) auto; justify-content: space-between; align-items: start; gap: 8px var(--s3); max-width: none; } /* full column width: the last button sits on the same right edge as the product buttons (.linkrows); the text keeps its readable width */
 .timeline .where-text { min-width: 0; padding-top: 8px; }
 .timeline .ico-group { display: flex; gap: 8px; justify-self: end; }
-@media (max-width: 560px) { .timeline .where.with-links { grid-template-columns: minmax(0, 1fr); } } /* narrow: buttons below the affiliation, still on the right edge, in order */
+@media (max-width: 560px) { .timeline .where.with-links { grid-template-columns: minmax(0, 1fr); } .timeline .ico-group { position: relative; } .timeline .ico-group .ico { position: static; } } /* narrow: buttons below the affiliation, still on the right edge, in order; tooltips anchored at the group's right edge so a long name (4 Roche buttons) is never cut at the left screen edge */
 .timeline .ico-group .ico[data-tip]::after { left: auto; right: 0; } /* tooltip opens towards the text, never past the right edge */
 .timeline p { color: var(--ink-2); font-size: 0.96rem; max-width: 68ch; }
 .profile { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: var(--s7); align-items: start; }
