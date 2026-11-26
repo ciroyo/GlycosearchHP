@@ -17,6 +17,8 @@ node scripts/serve.mjs      # http://127.0.0.1:4173/
 
 Since 25 Nov 2026 the redesign is on GitHub in repository `ciroyo/GlycosearchHP`: developed on branch `redesign-2026` and merged into `master` (pull requests #1 and #2). `.github/workflows/build.yml` builds and checks every push on a macOS runner; it does not publish.
 
+**Live update of 26 Nov 2026, 11:55 (Roche fellowship link):** https://glycosearch.com/ serves the build of commit `3478042` (`master` = `redesign-2026`). Only `about/index.html` and `assets/site/styles.css` differ from the previous live build; both were saved from the server first (`strato-backup-2026-11-26c/`) and then uploaded over SFTP. Live afterwards: both files byte-identical with the build, Roche shows four links in order, every group ends on the right edge of the product buttons (0 px deviation at 1440 and 390 px), `check.mjs --url https://glycosearch.com` 4778 passed, 1 failed (the expected missing `/api/ask/status`).
+
 **Live update of 26 Nov 2026, 11:41 (alignment of the Experience link buttons):** https://glycosearch.com/ serves the build of commit `d55a304` (`master` = `redesign-2026`). Compared with the previous live build only `assets/site/styles.css` differs; it was saved from the server first (`strato-backup-2026-11-26b/`) and then uploaded over SFTP. Live afterwards: the stylesheet is byte-identical with the build, the last button of every Experience group ends on the right edge of the product buttons (0 px deviation, measured at 1440 and 390 px), `check.mjs --url https://glycosearch.com` 4775 passed, 1 failed (the expected missing `/api/ask/status`).
 
 **Live update of 26 Nov 2026, 11:26 (Experience link buttons):** https://glycosearch.com/ serves the build of commit `18343a3` (`master` = `redesign-2026`). Built from a clean clone of `master` (4711 checks passed); compared with the build of `3a39451` only `about/index.html` and `assets/site/styles.css` differ, so only these two files were uploaded over SFTP to `/sam/glycosearch` (stylesheet first). Both were saved from the server before and are restorable (backup folder `strato-backup-2026-11-26/` next to the repository, with instructions). Live check afterwards: both files byte-identical with the build, all eight new links in order on the live About page, `check.mjs --url https://glycosearch.com` 4774 passed, 1 failed (the expected missing `/api/ask/status` on static hosting). The stylesheet URL carries no version query and the host sends no Cache-Control header, so a browser that cached the old stylesheet may show the new About markup unstyled until it revalidates.
@@ -53,6 +55,10 @@ top of the script. It does not judge layout, real pointer or touch input, or ext
   (https://www.duffield.cornell.edu/cbe/). Roche PostDoc Fellow: RIMLS, Roland Brock, Radboud University research.
   Ph.D. candidate: RIMLS, Peter Friedl, Radboud University research. Order as given by the owner; all six targets
   answered 200 on 26 Nov 2026.
+- Roche PostDoc Fellow got a fourth button in first place (owner request, same day): The Roche Postdoctoral Fellowship
+  Programme (https://careers.roche.com/global/en/the-roche-postdoctoral-fellowship-programme, answered 200). Nine
+  academic links plus Vaionex. Below 560 px the tooltips are anchored at the right edge of the group, so the long
+  name is never cut at the left screen edge.
 - Alignment (owner correction, same day): the affiliation row spans the full Experience column as a two-column grid
   (text up to 68ch | buttons, free space between), so the last button of every group ends on the same right edge as
   the product buttons (Agreements.ai etc.). It used to inherit the 68ch paragraph width and ended about 59 px further
