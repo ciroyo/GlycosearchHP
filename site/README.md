@@ -17,6 +17,8 @@ node scripts/serve.mjs      # http://127.0.0.1:4173/
 
 Since 25 Nov 2026 the redesign is on GitHub in repository `ciroyo/GlycosearchHP`: developed on branch `redesign-2026` and merged into `master` (pull requests #1 and #2). `.github/workflows/build.yml` builds and checks every push on a macOS runner; it does not publish.
 
+**Live update of 26 Nov 2026, 11:26 (Experience link buttons):** https://glycosearch.com/ serves the build of commit `18343a3` (`master` = `redesign-2026`). Built from a clean clone of `master` (4711 checks passed); compared with the build of `3a39451` only `about/index.html` and `assets/site/styles.css` differ, so only these two files were uploaded over SFTP to `/sam/glycosearch` (stylesheet first). Both were saved from the server before and are restorable (backup folder `strato-backup-2026-11-26/` next to the repository, with instructions). Live check afterwards: both files byte-identical with the build, all eight new links in order on the live About page, `check.mjs --url https://glycosearch.com` 4774 passed, 1 failed (the expected missing `/api/ask/status` on static hosting). The stylesheet URL carries no version query and the host sends no Cache-Control header, so a browser that cached the old stylesheet may show the new About markup unstyled until it revalidates.
+
 **Live since 26 Nov 2026:** https://glycosearch.com/ serves the build of commit `8334471` (same site output as `master` at `3a39451`). It was uploaded by hand over SFTP from a clean clone into the web root `/sam/glycosearch` on `ssh.strato.de`; all 862 files of `dist/` were then downloaded from the live domain and are byte-identical. The upload only added and overwrote files (26 overwritten, nothing deleted); a full copy of the previous web root is kept outside the repository. The host allows SFTP only (no shell, no rsync). Not set up: automatic deployment from GitHub, `.htaccess` (so unknown addresses show the host's default 404 page, not `404.html`), and the `/api/ask` endpoint (static hosting; Ask Glycosearch uses the built-in website search).
 
 ## Checks
@@ -40,6 +42,18 @@ markup and player script, the one-line footer, brand mark and favicons, the them
 the light and dark colour tokens, the patent, the book chapter, the two filter groups, the profile links and logos,
 the updated CV (texts of the DOCX and of the PDF print source) and the Thr/Ser button. Deliberate deviations from the old inventory are listed in `CHANGED` / `REMOVED` at the
 top of the script. It does not judge layout, real pointer or touch input, or external availability.
+
+## Experience link buttons (26 Nov 2026)
+
+- Owner request: compact icon buttons next to each Experience affiliation, same as the Vaionex entry. Data: `links` in
+  `content/site.json` → `profile.experience`; rendered by `whereLinks` in `scripts/build.mjs`.
+- KIC PostDoc Fellow: KIC (https://www.kicnano.cornell.edu), Cornell Chemical and Biomolecular Engineering
+  (https://www.duffield.cornell.edu/cbe/). Roche PostDoc Fellow: RIMLS, Roland Brock, Radboud University research.
+  Ph.D. candidate: RIMLS, Peter Friedl, Radboud University research. Order as given by the owner; all six targets
+  answered 200 on 26 Nov 2026.
+- The group sits right of the affiliation and wraps below it, still right-aligned, when the line is too narrow; the
+  tooltips open towards the text. `check.mjs` verifies targets, order, accessible names = tooltips, new tab and that no
+  URL is written out.
 
 ## Fourth round of 25 Nov 2026
 
